@@ -1,6 +1,8 @@
+import 'package:earthquakes_of_world/provider/earthquake_filter_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:date_range_form_field/date_range_form_field.dart';
 import 'package:intl/intl.dart';
+import 'package:provider/provider.dart';
 
 class CustomSearchAppBar extends StatefulWidget implements PreferredSizeWidget {
   @override
@@ -23,7 +25,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
 
   DateTimeRange myDateRange;
 
-  List<bool> isSelected = [false, false, false, true, true, true];
+  List<bool> isSelected = [false, false, false, true, true, true,true];
 
   Widget _getSearchText() {
     if (searchBarIsOpen) {
@@ -47,7 +49,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
     }
   }
 
-  Widget _getRangeSlider() {
+  Widget _getRangeSlider(BuildContext context) {
     if (filterBarIsOpen) {
       return Container(
           height: 60,
@@ -71,12 +73,18 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                 Icons.seven_k,
                 size: 40,
                 color: Colors.red,
+              ),
+               Icon(
+                Icons.eight_k_plus,
+                size: 40,
+                color: Colors.red,
               )
             ],
             isSelected: isSelected,
             onPressed: (int index) {
               setState(() {
                 isSelected[index] = !isSelected[index];
+                //context.read<EarthquakeFilterProvider>().update(filters);
               });
             },
           ));
@@ -224,7 +232,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                 SizedBox(
                   height: 5,
                 ),
-                _getRangeSlider(),
+                _getRangeSlider(context),
                 SizedBox(
                   height: 5,
                 ),
