@@ -3,4 +3,5 @@ class EarthquakeFilter {
   DateTime startDate;
   DateTime endDate;
   int minimumMagnitude;
+  String locationText;
 }

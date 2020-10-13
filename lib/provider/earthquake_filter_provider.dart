@@ -1,4 +1,3 @@
-
 import 'package:earthquakes_of_world/models/models.dart';
 import 'package:flutter/foundation.dart';
 
@@ -12,6 +11,17 @@ class EarthquakeFilterProvider with ChangeNotifier, DiagnosticableTreeMixin {
 
   update(EarthquakeFilter filter) {
     _filter = filter;
+    notifyListeners();
+  }
+
+  updateSearchText(String searchText) {
+    _filter.locationText = searchText;
+    notifyListeners();
+  }
+
+  updateDateRange(DateTime startDate, DateTime endDate) {
+    _filter.endDate = endDate;
+    _filter.startDate = startDate;
     notifyListeners();
   }
 
