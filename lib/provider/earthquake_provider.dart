@@ -1,11 +1,8 @@
-
- 
-
 import 'package:earthquakes_of_world/models/models.dart';
 import 'package:earthquakes_of_world/service/earthquake_usgs.dart';
 
-class EarthquakeProvider  {
- static Future<ActionResult<EarthquakeCollection>> getEarthquakeData(
+class EarthquakeProvider {
+  static Future<ActionResult<EarthquakeCollection>> getEarthquakeData(
       EarthquakeFilter eqFilter) async {
     final ActionResult<String> actionResultService =
         await EarthquakeUsgsService.getEarthquakeByFilter(eqFilter);
@@ -24,7 +21,7 @@ class EarthquakeProvider  {
     return result;
   }
 
- static EarthquakeCollection _convertEarthquakeCollection(
+  static EarthquakeCollection _convertEarthquakeCollection(
       ActionResult<String> actionResult) {
     try {
       EarthquakeCollection earthquakeCollection =
@@ -34,10 +31,7 @@ class EarthquakeProvider  {
       result.resultData = earthquakeCollection;
       result.isSucces = true;
       return earthquakeCollection;
-    } catch (e, s) {
-
-      
-    }
+    } catch (e, s) {}
 
     return null;
   }
