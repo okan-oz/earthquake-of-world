@@ -15,12 +15,6 @@ class _DateRangeControlState extends State<DateRangeControl> {
   DateTime _endDate = DateTime.now().add(Duration(days: -1));
   @override
   void initState() {
-    // _endDateController.value = TextEditingValue(
-    //     text: _getDateText(
-    //         context.watch<EarthquakeFilterProvider>().currentFilter.endDate));
-    // _startDateController.value = TextEditingValue(
-    //     text: _getDateText(
-    //         context.watch<EarthquakeFilterProvider>().currentFilter.startDate));
     super.initState();
   }
 

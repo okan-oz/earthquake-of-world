@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 class EarthquakeFilterProvider with ChangeNotifier, DiagnosticableTreeMixin {
   EarthquakeFilterProvider() {
     _filter = EarthquakeFilter(
+        minimumMagnitude: 4,
         endDate: DateTime.now(),
         startDate: DateTime.now().add(Duration(days: -1)));
   }
@@ -16,6 +17,11 @@ class EarthquakeFilterProvider with ChangeNotifier, DiagnosticableTreeMixin {
 
   updateSearchText(String searchText) {
     _filter.locationText = searchText;
+    notifyListeners();
+  }
+
+  updateMagnitude(int m) {
+    _filter.minimumMagnitude = m;
     notifyListeners();
   }
 

@@ -1,11 +1,8 @@
+import 'package:earthquakes_of_world/common/utils/localization_util.dart';
 import 'package:earthquakes_of_world/provider/earthquake_filter_provider.dart';
+import 'package:earthquakes_of_world/ui/widgets/range_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:date_range_form_field/date_range_form_field.dart';
-import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
-import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-
-import 'date_range.dart';
 import 'date_range_widget.dart';
 
 class CustomSearchAppBar extends StatefulWidget implements PreferredSizeWidget {
@@ -29,7 +26,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
 
   DateTimeRange myDateRange;
 
-  List<bool> isSelected = [false, false, false, true, true, true, true];
+ 
 
   Widget _getSearchText() {
     if (searchBarIsOpen) {
@@ -60,94 +57,18 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
 
   Widget _getRangeSlider(BuildContext context) {
     if (filterBarIsOpen) {
-      return Container(
-          height: 60,
-          width: 300,
-          margin: EdgeInsets.fromLTRB(30, 0, 30, 0),
-          decoration: BoxDecoration(
-              color: Colors.white,
-              border: Border.all(
-                  color: Colors.white, width: 1.0, style: BorderStyle.solid),
-              borderRadius: BorderRadius.circular(10.0)),
-          child: ToggleButtons(
-            disabledColor: Colors.red,
-            selectedBorderColor: Colors.grey.shade700,
-            children: [
-              Icon(Icons.two_k_plus, size: 40, color: Colors.blue.shade200),
-              Icon(Icons.three_k_plus, size: 40, color: Colors.blue.shade500),
-              Icon(Icons.four_k_plus, size: 40, color: Colors.yellow.shade700),
-              Icon(Icons.five_k_plus, size: 40, color: Colors.orange),
-              Icon(Icons.six_k_plus, size: 40, color: Colors.orange.shade800),
-              Icon(
-                Icons.seven_k,
-                size: 40,
-                color: Colors.red,
-              ),
-              Icon(
-                Icons.eight_k_plus,
-                size: 40,
-                color: Colors.red,
-              )
-            ],
-            isSelected: isSelected,
-            onPressed: (int index) {
-              setState(() {
-                isSelected[index] = !isSelected[index];
-                //context.read<EarthquakeFilterProvider>().update(filters);
-              });
-            },
-          ));
-    } else {
-      return SizedBox.shrink();
-    }
-  }
-
-  Widget _getDateRange() {
-    if (filterBarIsOpen) {
-      return Container(
-          height: 60,
-          width: 300,
-          margin: EdgeInsets.fromLTRB(30, 0, 30, 0),
-          padding: EdgeInsets.all(0),
-          decoration: BoxDecoration(
-              color: Colors.white,
-              border: Border.all(
-                  color: Colors.white, width: 1.0, style: BorderStyle.solid),
-              borderRadius: BorderRadius.circular(10.0)),
-          child: DateRangeField(
-              width: 250,
-              margin: EdgeInsets.all(0),
-              dateFormat: DateFormat('dd-MM-yyyy'),
-              context: context,
-              decoration: InputDecoration(
-                labelText: 'Date Range',
-                prefixIcon: Icon(Icons.date_range, color: Colors.red),
-                hintText: 'Please select a start and end date',
-              ),
-              initialValue: DateTimeRange(
-                start: DateTime.now(),
-                end: DateTime.now(),
-              ),
-              validator: (value) {
-                if (value.start.isBefore(DateTime.now())) {
-                  return 'Please enter a later start date';
-                }
-                return null;
-              },
-              onSaved: (value) {
-                setState(() {
-                  myDateRange = value;
-                });
-              }));
+      return CustomRangeSlider();
     } else {
       return SizedBox.shrink();
     }
   }
 
   Widget _getDateRange2() {
-        if (   filterBarIsOpen) {return DateRangeControl();}else{
-          return SizedBox.shrink();
-        }
+    if (filterBarIsOpen) {
+      return DateRangeControl();
+    } else {
+      return SizedBox.shrink();
+    }
   }
 
   @override
@@ -176,9 +97,9 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                       Container(
                           padding: EdgeInsets.fromLTRB(30, 0, 0, 0),
                           child: Text(
-                            "Son Depremler",
+                            LocalizationUtil.translate(context, 'Earthquakes'),
                             style: TextStyle(
-                                fontSize: 26,
+                                fontSize: 25,
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold),
                           )),
@@ -243,7 +164,6 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                   ),
                 ),
                 _getSearchText(),
-                //_getDateRange(),
                 _getDateRange2(),
                 SizedBox(
                   height: 5,
