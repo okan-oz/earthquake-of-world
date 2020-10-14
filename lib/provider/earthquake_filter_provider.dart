@@ -5,7 +5,7 @@ class EarthquakeFilterProvider with ChangeNotifier, DiagnosticableTreeMixin {
   EarthquakeFilterProvider() {
     _filter = EarthquakeFilter(
         endDate: DateTime.now(),
-        startDate: DateTime.now().add(Duration(hours: -12)));
+        startDate: DateTime.now().add(Duration(days: -1)));
   }
   EarthquakeFilter _filter;
 

@@ -5,6 +5,9 @@ import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 
+import 'date_range.dart';
+import 'date_range_widget.dart';
+
 class CustomSearchAppBar extends StatefulWidget implements PreferredSizeWidget {
   @override
   _CustomSearchAppBarState createState() => _CustomSearchAppBarState();
@@ -142,104 +145,9 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
   }
 
   Widget _getDateRange2() {
-    return Column(
-      children: [
-        FlatButton(
-            onPressed: () {
-              DatePicker.showDatePicker(context,
-                  showTitleActions: true,
-                  minTime: DateTime(1998, 1, 1),
-                  maxTime: DateTime.now(),
-                  theme: DatePickerTheme(
-                      headerColor: Colors.orange,
-                      backgroundColor: Colors.blue,
-                      itemStyle: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18),
-                      doneStyle: TextStyle(color: Colors.white, fontSize: 16)),
-                  onChanged: (date) {
-                print('change $date in time zone ' +
-                    date.timeZoneOffset.inHours.toString());
-              }, onConfirm: (date) {
-                print('confirm $date');
-              }, currentTime: DateTime.now(), locale: LocaleType.en);
-            },
-            child: Container(
-                width: 300,
-                height: 40,
-                margin: EdgeInsets.fromLTRB(30, 0, 30, 0),
-                padding: EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                    color: Colors.white,
-                    border: Border.all(
-                        color: Colors.white,
-                        width: 1.0,
-                        style: BorderStyle.solid),
-                    borderRadius: BorderRadius.circular(10.0)),
-                child: TextField(
-                  onChanged: (text) {
-                    print("First text field: $text");
-                    context
-                        .read<EarthquakeFilterProvider>()
-                        .updateSearchText(text);
-                  },
-                  controller: _searchController,
-                  decoration: InputDecoration(
-                    suffixIcon: Icon(Icons.date_range),
-                    border: InputBorder.none,
-                  ),
-                  autofocus: true,
-                ))),
-                FlatButton(
-            onPressed: () {
-              DatePicker.showDatePicker(context,
-                  showTitleActions: true,
-                  minTime: DateTime(1998, 1, 1),
-                  maxTime: DateTime.now(),
-                  theme: DatePickerTheme(
-                      headerColor: Colors.orange,
-                      backgroundColor: Colors.blue,
-                      itemStyle: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18),
-                      doneStyle: TextStyle(color: Colors.white, fontSize: 16)),
-                  onChanged: (date) {
-                print('change $date in time zone ' +
-                    date.timeZoneOffset.inHours.toString());
-              }, onConfirm: (date) {
-                print('confirm $date');
-              }, currentTime: DateTime.now(), locale: LocaleType.en);
-            },
-            child: Container(
-                width: 300,
-                height: 40,
-                margin: EdgeInsets.fromLTRB(30, 0, 30, 0),
-                padding: EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                    color: Colors.white,
-                    border: Border.all(
-                        color: Colors.white,
-                        width: 1.0,
-                        style: BorderStyle.solid),
-                    borderRadius: BorderRadius.circular(10.0)),
-                child: TextField(
-                  onChanged: (text) {
-                    print("First text field: $text");
-                    context
-                        .read<EarthquakeFilterProvider>()
-                        .updateSearchText(text);
-                  },
-                  controller: _searchController,
-                  decoration: InputDecoration(
-                    suffixIcon: Icon(Icons.date_range),
-                    border: InputBorder.none,
-                  ),
-                  autofocus: true,
-                ))),
-      ],
-    );
+        if (   filterBarIsOpen) {return DateRangeControl();}else{
+          return SizedBox.shrink();
+        }
   }
 
   @override
