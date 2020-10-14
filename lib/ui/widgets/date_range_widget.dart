@@ -71,6 +71,11 @@ class _DateRangeControlState extends State<DateRangeControl> {
                     _startDate = date;
                   }, onConfirm: (date) {
                     print('confirm $date');
+                    if (_startDate.isBefore(_endDate)) {
+                      context
+                          .read<EarthquakeFilterProvider>()
+                          .updateDateRange(_startDate, _endDate);
+                    }
                   }, currentTime: DateTime.now(), locale: LocaleType.en);
                 },
                 readOnly: true,
@@ -119,6 +124,11 @@ class _DateRangeControlState extends State<DateRangeControl> {
                     _endDate = date;
                   }, onConfirm: (date) {
                     print('confirm $date');
+                    if (_startDate.isBefore(_endDate)) {
+                      context
+                          .read<EarthquakeFilterProvider>()
+                          .updateDateRange(_startDate, _endDate);
+                    }
                   }, currentTime: DateTime.now(), locale: LocaleType.en);
                 },
                 readOnly: true,

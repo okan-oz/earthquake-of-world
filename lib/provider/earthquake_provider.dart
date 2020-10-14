@@ -34,7 +34,10 @@ class EarthquakeProvider  {
       result.resultData = earthquakeCollection;
       result.isSucces = true;
       return earthquakeCollection;
-    } catch (e, s) {}
+    } catch (e, s) {
+
+      
+    }
 
     return null;
   }

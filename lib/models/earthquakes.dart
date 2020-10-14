@@ -23,7 +23,7 @@ class EarthquakeCollection {
         type: json["type"],
         metadata: Metadata.fromJson(json["metadata"]),
         features: List<Feature>.from(json["features"].map((x) => Feature.fromJson(x))),
-        bbox: List<double>.from(json["bbox"].map((x) => x.toDouble())),
+        bbox:json["bbox"]!=null ? List<double>.from(json["bbox"].map((x) => x.toDouble())):null,
     );
 
     Map<String, dynamic> toJson() => {
@@ -167,7 +167,7 @@ class Properties {
         types: json["types"],
         nst: json["nst"] == null ? null : json["nst"],
         dmin: json["dmin"] == null ? null : json["dmin"].toDouble(),
-        rms: json["rms"].toDouble(),
+        rms:json["rms"]!=null ? json["rms"].toDouble():0,
         gap: json["gap"] == null ? null : json["gap"].toDouble(),
         magType: magTypeValues.map[json["magType"]],
         type: propertiesTypeValues.map[json["type"]],
