@@ -71,7 +71,8 @@ class _DateRangeControlState extends State<DateRangeControl> {
                     _startDate = date;
                   }, onConfirm: (date) {
                     print('confirm $date');
-                    if (_startDate.isBefore(_endDate)) {
+                    if (date.isBefore(_endDate)) {
+                        _startDate = date;
                       context
                           .read<EarthquakeFilterProvider>()
                           .updateDateRange(_startDate, _endDate);
@@ -121,10 +122,11 @@ class _DateRangeControlState extends State<DateRangeControl> {
                       onChanged: (date) {
                     _endDateController.value =
                         TextEditingValue(text: _getDateText(date));
-                    _endDate = date;
                   }, onConfirm: (date) {
                     print('confirm $date');
-                    if (_startDate.isBefore(_endDate)) {
+                    if (_startDate.isBefore(date)) {
+                      _endDate = date;
+
                       context
                           .read<EarthquakeFilterProvider>()
                           .updateDateRange(_startDate, _endDate);

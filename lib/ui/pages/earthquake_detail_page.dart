@@ -48,14 +48,14 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
                       style: _getAppBarDetailTextStyle()),
                 ),
                 title: Text(
-                  widget.earthquake.properties.title,
+                  widget.earthquake.properties.place,
                   style: TextStyle(
                       fontSize: 16,
                       color: Colors.white,
                       fontWeight: FontWeight.bold),
                 ),
                 subtitle: Text(
-                  widget.earthquake.properties.time.toString(),
+                 Utils.converIntToDate(widget.earthquake.properties.time).toString(),
                   style: TextStyle(
                       fontSize: 12,
                       color: Colors.white,
