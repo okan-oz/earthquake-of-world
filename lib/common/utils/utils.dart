@@ -5,7 +5,6 @@ import 'package:intl/intl.dart';
 DateFormat dateFormat = DateFormat("yyyy-MM-dd HH:mm:ss");
 
 class Utils {
-
   static DateFormat dateFormat = DateFormat("dd-MM-yyyy HH:mm:ss");
   static double CheckDouble(dynamic value) {
     if (value is String) {
@@ -54,15 +53,17 @@ class Utils {
   }
 
   static String formatTextDate(String value) {
-    DateTime dt=convertDate(value);
+    DateTime dt = convertDate(value);
     return dateFormat.format(dt);
   }
 
   static DateTime convertDate(String value) {
-    value=value.replaceAll(".", "-");
+    value = value.replaceAll(".", "-");
     DateTime returnValue = DateTime.parse(value);
     return returnValue;
   }
 
-
+  static DateTime converIntToDate(int longTimehoc) {
+    return DateTime.fromMillisecondsSinceEpoch(longTimehoc);
+  }
 }

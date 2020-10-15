@@ -2,8 +2,6 @@ import 'dart:async';
 import 'package:earthquakes_of_world/models/earthquakes.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
- 
-
 
 class MapSample extends StatefulWidget {
   Feature eq;
@@ -12,7 +10,6 @@ class MapSample extends StatefulWidget {
 
   @override
   State<MapSample> createState() => MapSampleState();
-
 }
 
 class MapSampleState extends State<MapSample> {
@@ -24,7 +21,7 @@ class MapSampleState extends State<MapSample> {
   LatLng _lastMapPosition = _center;
   CameraPosition _initialPosition =
       CameraPosition(target: LatLng(38.4315, 39.1505));
-MapType _defaultMapType = MapType.hybrid;
+  MapType _defaultMapType = MapType.hybrid;
 
   @override
   Widget build(BuildContext context) {
@@ -41,42 +38,34 @@ MapType _defaultMapType = MapType.hybrid;
             _lastMapPosition = position.target;
           },
         ),
-         Container(
-              margin: EdgeInsets.only(top: 80, right: 10),
-              alignment: Alignment.topRight,
-              child: Column(
-                children: <Widget>[
-                  FloatingActionButton(
-                      child: Icon(Icons.layers),
-                      elevation: 5,
-                      backgroundColor: Colors.teal[200],
-                      onPressed: () {
-                       _changeMapType();
-                        print('Changing the Map Type');
-                      }),
-                ]),
-            )
+        Container(
+          margin: EdgeInsets.only(top: 80, right: 10),
+          alignment: Alignment.topRight,
+          child: Column(children: <Widget>[
+            FloatingActionButton(
+                child: Icon(Icons.layers),
+                elevation: 5,
+                backgroundColor: Colors.teal[200],
+                onPressed: () {
+                  _changeMapType();
+                  print('Changing the Map Type');
+                }),
+          ]),
+        )
       ],
     );
   }
 
-void _changeMapType() {
+  void _changeMapType() {
     setState(() {
-      _defaultMapType = _defaultMapType == MapType.normal ? MapType.hybrid : MapType.normal;
+      _defaultMapType =
+          _defaultMapType == MapType.normal ? MapType.hybrid : MapType.normal;
     });
   }
 
-
-
   Future<void> _goToEarthQuake() async {
-    double lat = widget.eq.geometry.coordinates.first;
-    double long = widget.eq.geometry.coordinates.last;
-  
-
-//BitmapDescriptor customIcon;
-
- 
-
+    double lat = widget.eq.geometry.coordinates[1];
+    double long = widget.eq.geometry.coordinates[0];
 
     GoogleMapController controller = await _controller.future;
     controller
@@ -86,10 +75,9 @@ void _changeMapType() {
         Marker(
           markerId: MarkerId(widget.eq.properties.place),
           position: LatLng(lat, long),
-          infoWindow: InfoWindow(title: widget.eq.properties.mag.toString(),snippet: widget.eq.properties.place),
-          //icon: BitmapDescriptor.fromAsset("assets/depremAppBar.jpg",),
-        
-      
+          infoWindow: InfoWindow(
+              title: widget.eq.properties.mag.toString(),
+              snippet: widget.eq.properties.place),
         ),
       );
     });
@@ -101,9 +89,8 @@ void _changeMapType() {
     _goToEarthQuake();
   }
 
-@override
+  @override
   void dispose() {
     super.dispose();
   }
-
 }

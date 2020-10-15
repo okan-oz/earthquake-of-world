@@ -10,9 +10,7 @@ class EqCard extends StatelessWidget {
   BuildContext context;
   @override
   Widget build(BuildContext context) {
-    DateTime timeStamp =
-        DateTime.fromMillisecondsSinceEpoch(eq.properties.time);
-
+    DateTime timeStamp =Utils.converIntToDate(eq.properties.time);
     return Card(
         elevation: 10,
         child: Container(

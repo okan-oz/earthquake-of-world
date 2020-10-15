@@ -1,3 +1,4 @@
+import 'package:earthquakes_of_world/common/utils/localization_util.dart';
 import 'package:earthquakes_of_world/common/utils/utils.dart';
 import 'package:earthquakes_of_world/models/models.dart';
 import 'package:earthquakes_of_world/ui/widgets/map_samle.dart';
@@ -93,31 +94,31 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
                   Icons.dialpad,
                   color: Colors.brown,
                 ),
-                title: Text("Derinlik"),
-                subtitle: Text(widget.earthquake.properties.dmin.toString()),
+                title:  Text(LocalizationUtil.translate(context, 'Depth')),
+                subtitle: Text(widget.earthquake.geometry.coordinates[2].toString()),
               ),
               ListTile(
                 leading: Icon(
                   Icons.timer,
                   color: Colors.green,
                 ),
-                title: Text("Tarih"),
-                subtitle: Text(widget.earthquake.properties.time.toString()),
+                title: Text(LocalizationUtil.translate(context, 'Date')),
+                subtitle: Text(Utils.converIntToDate(widget.earthquake.properties.time).toString()),
               ),
               ListTile(
                 leading: Icon(
                   Icons.location_on,
                   color: Colors.red,
                 ),
-                title: Text("Lokasyon"),
-                subtitle: Text(widget.earthquake.properties.mag.toString()),
+                title:Text(LocalizationUtil.translate(context, 'Location')),
+                subtitle: Text(widget.earthquake.properties.place),
               ),
               ListTile(
                 leading: IconButton(
                   icon: Icon(
                     Icons.share,
                     color: Colors.blue,
-                    semanticLabel: "Paylaş",
+                    semanticLabel: LocalizationUtil.translate(context, 'Share'),
  
                   ),
                   onPressed: () {
@@ -129,8 +130,8 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
                             box.localToGlobal(Offset.zero) & box.size);
                   },
                 ),
-                title: Text("Paylaş"),
-                subtitle: Text("Sosyal Medyada Paylaş"),
+                title: Text(LocalizationUtil.translate(context, 'Share'),),
+                subtitle: Text(LocalizationUtil.translate(context, 'Share'),),
               ),
               // ListTiles++
             ]),
