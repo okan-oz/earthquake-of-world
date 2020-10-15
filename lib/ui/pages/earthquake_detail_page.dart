@@ -140,7 +140,7 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
               padding: EdgeInsets.all(10),
               height: 350,
               width: 50,
-              child: Container()//MapSample(widget.earthquake),
+              child: MapSample(widget.earthquake),
             ),
           ),
         ],
