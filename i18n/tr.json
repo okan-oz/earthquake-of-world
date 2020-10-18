@@ -1,3 +1,7 @@
 {
-    "ApplicationAppBarTitle": "Dünya Depremleri"
+    "ApplicationAppBarTitle": "Dünya Depremleri",
+    "Depth":"Derinlik",
+    "Date":"Tarih",
+    "Location":"Konum",
+    "Share":"Paylaş"
 }
