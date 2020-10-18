@@ -8,7 +8,16 @@ class EarthquakeFilterProvider with ChangeNotifier, DiagnosticableTreeMixin {
         endDate: DateTime.now(),
         startDate: DateTime.now().add(Duration(days: -1)));
   }
+
   EarthquakeFilter _filter;
+
+  setInitialValue() {
+    _filter = EarthquakeFilter(
+        minimumMagnitude: 4,
+        endDate: DateTime.now(),
+        startDate: DateTime.now().add(Duration(days: -1)));
+    notifyListeners();
+  }
 
   update(EarthquakeFilter filter) {
     _filter = filter;
