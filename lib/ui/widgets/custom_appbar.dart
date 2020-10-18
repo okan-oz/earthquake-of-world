@@ -16,7 +16,7 @@ class CustomSearchAppBar extends StatefulWidget implements PreferredSizeWidget {
 }
 
 class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
-  double appBarInitializeValue = 100;
+  double appBarInitializeValue = 140;
   double appBarHeight = 100;
   double searchBarOpenHeight = 40;
   double filterBarOpenHeight = 120;
@@ -71,7 +71,8 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return SafeArea(
+        child: SizedBox(
       height: appBarHeight,
       child: Container(
         decoration: BoxDecoration(),
@@ -95,7 +96,8 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                       Container(
                           padding: EdgeInsets.fromLTRB(30, 0, 0, 0),
                           child: Text(
-                            LocalizationUtil.translate(context, 'ApplicationAppBarTitle'),
+                            LocalizationUtil.translate(
+                                context, 'ApplicationAppBarTitle'),
                             style: TextStyle(
                                 fontSize: 25,
                                 color: Colors.white,
@@ -141,9 +143,11 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                         onTap: () {
                           setState(() {
                             searchBarIsOpen = false;
-                            filterBarIsOpen=false;
+                            filterBarIsOpen = false;
                             appBarHeight = appBarInitializeValue;
-                            context.read<EarthquakeFilterProvider>().setInitialValue();
+                            context
+                                .read<EarthquakeFilterProvider>()
+                                .setInitialValue();
                           });
                         },
                         child: Icon(
@@ -169,6 +173,6 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
               ],
             )),
       ),
-    );
+    ));
   }
 }
