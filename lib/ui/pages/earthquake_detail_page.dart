@@ -43,7 +43,7 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
               title: ListTile(
                 leading: CircleAvatar(
                   radius: 20,
-                  backgroundColor: Utils.DecideListTileColor(widget.earthquake.properties.mag),
+                  backgroundColor: Utils.decideListTileColor(widget.earthquake.properties.mag),
                   child: Text(widget.earthquake.properties.mag.toString(),
                       style: _getAppBarDetailTextStyle()),
                 ),

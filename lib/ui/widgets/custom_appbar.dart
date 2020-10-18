@@ -26,8 +26,6 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
 
   DateTimeRange myDateRange;
 
- 
-
   Widget _getSearchText() {
     if (searchBarIsOpen) {
       return Container(
@@ -121,35 +119,31 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                           color: Colors.white,
                         ),
                       ),
+                      // GestureDetector(
+                      //   onTap: () {
+                      //     setState(() {
+                      //       searchBarIsOpen = !searchBarIsOpen;
+                      //       if (searchBarIsOpen) {
+                      //         filterBarIsOpen = false;
+                      //         appBarHeight =
+                      //             appBarInitializeValue + searchBarOpenHeight;
+                      //       } else {
+                      //         appBarHeight = appBarInitializeValue;
+                      //       }
+                      //     });
+                      //   },
+                      //   child: Icon(
+                      //     Icons.search,
+                      //     color: Colors.white,
+                      //   ),
+                      // ),
                       GestureDetector(
                         onTap: () {
                           setState(() {
-                            searchBarIsOpen = !searchBarIsOpen;
-                            if (searchBarIsOpen) {
-                              filterBarIsOpen = false;
-                              appBarHeight =
-                                  appBarInitializeValue + searchBarOpenHeight;
-                            } else {
-                              appBarHeight = appBarInitializeValue;
-                            }
-                          });
-                        },
-                        child: Icon(
-                          Icons.search,
-                          color: Colors.white,
-                        ),
-                      ),
-                      GestureDetector(
-                        onTap: () {
-                          setState(() {
-                            searchBarIsOpen = !searchBarIsOpen;
-                            if (searchBarIsOpen) {
-                              filterBarIsOpen = false;
-                              appBarHeight =
-                                  appBarInitializeValue + searchBarOpenHeight;
-                            } else {
-                              appBarHeight = appBarInitializeValue;
-                            }
+                            searchBarIsOpen = false;
+                            filterBarIsOpen=false;
+                            appBarHeight = appBarInitializeValue;
+                            context.read<EarthquakeFilterProvider>().setInitialValue();
                           });
                         },
                         child: Icon(

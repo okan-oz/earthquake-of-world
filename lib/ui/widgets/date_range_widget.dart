@@ -81,7 +81,7 @@ class _DateRangeControlState extends State<DateRangeControl> {
                 },
                 readOnly: true,
                 decoration: InputDecoration(
-                  suffixIcon: Icon(Icons.date_range),
+                  suffixIcon: Icon(Icons.date_range,color: Colors.red,),
                   border: InputBorder.none,
                 ),
                 autofocus: true,
@@ -135,7 +135,7 @@ class _DateRangeControlState extends State<DateRangeControl> {
                 },
                 readOnly: true,
                 decoration: InputDecoration(
-                  suffixIcon: Icon(Icons.date_range),
+                  suffixIcon: Icon(Icons.date_range,color: Colors.red,),
                   border: InputBorder.none,
                 ),
                 autofocus: true,

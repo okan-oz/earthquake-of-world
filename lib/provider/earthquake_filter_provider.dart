@@ -19,6 +19,10 @@ class EarthquakeFilterProvider with ChangeNotifier, DiagnosticableTreeMixin {
     notifyListeners();
   }
 
+  refresh() {
+    notifyListeners();
+  }
+
   update(EarthquakeFilter filter) {
     _filter = filter;
     notifyListeners();

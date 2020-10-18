@@ -25,7 +25,7 @@ class EqCard extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     color: Colors.white),
               ),
-              backgroundColor: Utils.DecideListTileColor(eq.properties.mag),
+              backgroundColor: Utils.decideListTileColor(eq.properties.mag),
             ),
             onTap: onTap,
             title: Text(eq.properties.place.toString()),

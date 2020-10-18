@@ -1,7 +1,8 @@
 import 'package:earthquakes_of_world/models/models.dart';
+import 'package:earthquakes_of_world/provider/earthquake_filter_provider.dart';
 import 'package:earthquakes_of_world/ui/widgets/widgets.dart';
 import 'package:flutter/material.dart';
-
+import 'package:provider/provider.dart';
 class EarthquakeListPage extends StatelessWidget {
   EarthquakeListPage(this.eqFilter);
   final EarthquakeFilter eqFilter;
@@ -9,7 +10,11 @@ class EarthquakeListPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CustomSearchAppBar(),
-      body: EarthquakeList(eqFilter),
+      body:RefreshIndicator(child:  EarthquakeList(eqFilter),
+      onRefresh: ()async{
+         context.read<EarthquakeFilterProvider>().refresh();
+         return await Future.delayed(Duration(seconds: 1));
+      },),
     );
   }
 }

@@ -1,3 +1,4 @@
+import 'package:earthquakes_of_world/common/utils/utils.dart';
 import 'package:earthquakes_of_world/provider/earthquake_filter_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -24,20 +25,20 @@ class _RangeSliderState extends State<CustomRangeSlider> {
             disabledColor: Colors.red,
             selectedBorderColor: Colors.grey.shade700,
             children: [
-              Icon(Icons.two_k_plus, size: 40, color: Colors.blue.shade200),
-              Icon(Icons.three_k_plus, size: 40, color: Colors.blue.shade500),
-              Icon(Icons.four_k_plus, size: 40, color: Colors.yellow.shade700),
-              Icon(Icons.five_k_plus, size: 40, color: Colors.orange),
-              Icon(Icons.six_k_plus, size: 40, color: Colors.orange.shade800),
+              Icon(Icons.two_k_plus, size: 40, color: Utils.decideListTileColor(2)),
+              Icon(Icons.three_k_plus, size: 40, color: Utils.decideListTileColor(3)),
+              Icon(Icons.four_k_plus, size: 40, color: Utils.decideListTileColor(4)),
+              Icon(Icons.five_k_plus, size: 40, color: Utils.decideListTileColor(5)),
+              Icon(Icons.six_k_plus, size: 40, color: Utils.decideListTileColor(6)),
               Icon(
                 Icons.seven_k,
                 size: 40,
-                color: Colors.red,
+                color: Utils.decideListTileColor(7),
               ),
               Icon(
                 Icons.eight_k_plus,
                 size: 40,
-                color: Colors.red,
+                color: Utils.decideListTileColor(8),
               )
             ],
             isSelected: isSelected,
