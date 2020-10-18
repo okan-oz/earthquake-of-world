@@ -1,15 +1,19 @@
+import 'package:earthquakes_of_world/common/utils/localization_util.dart';
 import 'package:flutter/material.dart';
 
 class FriendlyException extends StatelessWidget {
-
-  String _title="Deprem verilirini alırken sıkıntılar yaşıyoruz.Rica etsek daha sonra tekrar deneyebilir misiniz?";
+  String _title = "";
 
   FriendlyException();
- 
-   FriendlyException.withTitle(this._title);
-   
+
+  FriendlyException.withTitle(this._title);
+
   @override
   Widget build(BuildContext context) {
+    if (_title == "") {
+      LocalizationUtil.translate(context, 'FriendlyExceptionTitle');
+    }
+
     return Card(
       elevation: 4,
       child: Container(
@@ -22,10 +26,9 @@ class FriendlyException extends StatelessWidget {
           height: 150,
           child: Center(
             child: ListTile(
-              leading: Icon(Icons.build,color:Colors.red),
-              title: Text("Hiç beklemediğimiz bir hata oldu"),
-              subtitle: Text(
-                  _title),
+              leading: Icon(Icons.build, color: Colors.red),
+              title: Text(LocalizationUtil.translate(context, 'UnhandledException')),
+              subtitle: Text(_title),
               // trailing: Icon(
               //   Icons.settings_backup_restore,
               //   size: 70,

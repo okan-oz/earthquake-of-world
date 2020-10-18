@@ -13,10 +13,9 @@ class EartquakeDetailPage extends StatefulWidget {
 }
 
 class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
- TextStyle _getAppBarDetailTextStyle() {
+  TextStyle _getAppBarDetailTextStyle() {
     return TextStyle(color: Colors.white, fontWeight: FontWeight.bold);
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -43,7 +42,8 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
               title: ListTile(
                 leading: CircleAvatar(
                   radius: 20,
-                  backgroundColor: Utils.decideListTileColor(widget.earthquake.properties.mag),
+                  backgroundColor: Utils.decideListTileColor(
+                      widget.earthquake.properties.mag),
                   child: Text(widget.earthquake.properties.mag.toString(),
                       style: _getAppBarDetailTextStyle()),
                 ),
@@ -55,7 +55,8 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
                       fontWeight: FontWeight.bold),
                 ),
                 subtitle: Text(
-                 Utils.converIntToDate(widget.earthquake.properties.time).toString(),
+                  Utils.converIntToDate(widget.earthquake.properties.time)
+                      .toString(),
                   style: TextStyle(
                       fontSize: 12,
                       color: Colors.white,
@@ -94,8 +95,9 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
                   Icons.dialpad,
                   color: Colors.brown,
                 ),
-                title:  Text(LocalizationUtil.translate(context, 'Depth')),
-                subtitle: Text(widget.earthquake.geometry.coordinates[2].toString()),
+                title: Text(LocalizationUtil.translate(context, 'Depth')),
+                subtitle:
+                    Text(widget.earthquake.geometry.coordinates[2].toString()),
               ),
               ListTile(
                 leading: Icon(
@@ -103,14 +105,16 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
                   color: Colors.green,
                 ),
                 title: Text(LocalizationUtil.translate(context, 'Date')),
-                subtitle: Text(Utils.converIntToDate(widget.earthquake.properties.time).toString()),
+                subtitle: Text(
+                    Utils.converIntToDate(widget.earthquake.properties.time)
+                        .toString()),
               ),
               ListTile(
                 leading: Icon(
                   Icons.location_on,
                   color: Colors.red,
                 ),
-                title:Text(LocalizationUtil.translate(context, 'Location')),
+                title: Text(LocalizationUtil.translate(context, 'Location')),
                 subtitle: Text(widget.earthquake.properties.place),
               ),
               ListTile(
@@ -119,19 +123,30 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
                     Icons.share,
                     color: Colors.blue,
                     semanticLabel: LocalizationUtil.translate(context, 'Share'),
- 
                   ),
                   onPressed: () {
                     final RenderBox box = context.findRenderObject();
-                    Share.share(
-                        "${widget.earthquake.properties.time.toString()} tarihinde , ${widget.earthquake.properties.mag} lokasyonunda , şiddeti ${widget.earthquake.properties.mag.toString()} olan deprem oldu . ",
-                        subject: "Deprem oldu !",
+                    String earthquakeHappenedText = LocalizationUtil.translate(
+                        context, 'EarthquakeHappened');
+                    earthquakeHappenedText = Utils.replaceTextOfShareEarthquake(
+                        earthquakeHappenedText,
+                        widget.earthquake.properties.mag.toString(),
+                        widget.earthquake.properties.place,
+                        Utils.converIntToDate(widget.earthquake.properties.time)
+                            .toString());
+                    Share.share(earthquakeHappenedText,
+                        subject: LocalizationUtil.translate(
+                            context, 'EarthquakeHappenedSubject'),
                         sharePositionOrigin:
                             box.localToGlobal(Offset.zero) & box.size);
                   },
                 ),
-                title: Text(LocalizationUtil.translate(context, 'Share'),),
-                subtitle: Text(LocalizationUtil.translate(context, 'Share'),),
+                title: Text(
+                  LocalizationUtil.translate(context, 'Share'),
+                ),
+                subtitle: Text(
+                  LocalizationUtil.translate(context, 'Share'),
+                ),
               ),
               // ListTiles++
             ]),
@@ -149,6 +164,3 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
     ));
   }
 }
-
-
-  

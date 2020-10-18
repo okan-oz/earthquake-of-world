@@ -1,9 +1,9 @@
+import 'package:earthquakes_of_world/common/utils/localization_util.dart';
 import 'package:earthquakes_of_world/provider/earthquake_filter_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 class EmptyData extends StatelessWidget {
-  String _title =
-      "Deprem verilirini alırken sıkıntılar yaşıyoruz.Rica etsek daha sonra tekrar deneyebilir misiniz?";
+  String _title ='';
 
   EmptyData();
 
@@ -11,6 +11,12 @@ class EmptyData extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+  if(_title=='')
+  {
+    LocalizationUtil.translate(context, 'EmptyDateMessage');
+  }
+
     return Card(
       margin: EdgeInsets.fromLTRB(20, 50, 20, 0),
       elevation: 4,
@@ -30,7 +36,7 @@ class EmptyData extends StatelessWidget {
                   color: Colors.red,
                   size: 70,
                 ),
-                title: Text("Hiç beklemediğimiz bir hata oldu"),
+                title: Text(LocalizationUtil.translate(context, 'EmptyDateMessage')),
                 subtitle: Text(_title),
                 trailing: GestureDetector(
                   onTap: ()async{
@@ -40,7 +46,7 @@ class EmptyData extends StatelessWidget {
                   child: Icon(
                     Icons.settings_backup_restore,
                     size: 70,
-                    semanticLabel: "Çok üzgünüz ..",
+                    semanticLabel: LocalizationUtil.translate(context, 'EmptyDateMessage'),
                     color: Colors.green,
                   ),
                 )),

@@ -62,10 +62,40 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "flutter_datetime_picker",
+      "rootUri": "file:///Users/okanoz/Documents/Projects/flutter_sdk/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_datetime_picker-1.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "flutter_localizations",
+      "rootUri": "file:///Users/okanoz/Documents/Projects/flutter_sdk/flutter/packages/flutter_localizations",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "flutter_plugin_android_lifecycle",
+      "rootUri": "file:///Users/okanoz/Documents/Projects/flutter_sdk/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.11",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/okanoz/Documents/Projects/flutter_sdk/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "2.2"
+    },
+    {
+      "name": "google_maps_flutter",
+      "rootUri": "file:///Users/okanoz/Documents/Projects/flutter_sdk/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter-1.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "google_maps_flutter_platform_interface",
+      "rootUri": "file:///Users/okanoz/Documents/Projects/flutter_sdk/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter_platform_interface-1.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
     },
     {
       "name": "http",
@@ -116,10 +146,22 @@
       "languageVersion": "2.1"
     },
     {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///Users/okanoz/Documents/Projects/flutter_sdk/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
       "name": "provider",
       "rootUri": "file:///Users/okanoz/Documents/Projects/flutter_sdk/flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.3.2+2",
       "packageUri": "lib/",
       "languageVersion": "2.7"
+    },
+    {
+      "name": "share",
+      "rootUri": "file:///Users/okanoz/Documents/Projects/flutter_sdk/flutter/.pub-cache/hosted/pub.dartlang.org/share-0.6.4+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
     },
     {
       "name": "sky_engine",
@@ -146,10 +188,22 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "stream_transform",
+      "rootUri": "file:///Users/okanoz/Documents/Projects/flutter_sdk/flutter/.pub-cache/hosted/pub.dartlang.org/stream_transform-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
       "name": "string_scanner",
       "rootUri": "file:///Users/okanoz/Documents/Projects/flutter_sdk/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0-nullsafety.1",
       "packageUri": "lib/",
       "languageVersion": "2.10"
+    },
+    {
+      "name": "super_internationalized",
+      "rootUri": "file:///Users/okanoz/Documents/Projects/flutter_sdk/flutter/.pub-cache/git/super_internationalized-f4a42c6d36abf31b6a843d156197ea4cf04e91ad/",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
     },
     {
       "name": "term_glyph",
@@ -182,7 +236,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2020-10-11T19:48:25.726973Z",
+  "generated": "2020-10-18T19:55:16.761165Z",
   "generator": "pub",
   "generatorVersion": "2.10.0"
 }

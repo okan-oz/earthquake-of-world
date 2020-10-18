@@ -66,4 +66,12 @@ class Utils {
   static DateTime converIntToDate(int longTimehoc) {
     return DateTime.fromMillisecondsSinceEpoch(longTimehoc);
   }
+
+  static String replaceTextOfShareEarthquake(
+      String text, String magnitude, String location, String date) {
+    text = text.replaceAll('#MAGNITUDE#', magnitude);
+    text = text.replaceAll('#LOCATION#', location);
+    text = text.replaceAll('#DATE#', date);
+    return text;
+  }
 }
