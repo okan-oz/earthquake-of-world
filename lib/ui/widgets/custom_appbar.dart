@@ -16,7 +16,7 @@ class CustomSearchAppBar extends StatefulWidget implements PreferredSizeWidget {
 }
 
 class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
-  double appBarInitializeValue = 140;
+  double appBarInitializeValue = 110;
   double appBarHeight = 100;
   double searchBarOpenHeight = 40;
   double filterBarOpenHeight = 120;
@@ -99,65 +99,75 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                             LocalizationUtil.translate(
                                 context, 'ApplicationAppBarTitle'),
                             style: TextStyle(
-                                fontSize: 25,
+                                fontSize: 30,
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold),
                           )),
-                      GestureDetector(
-                        onTap: () {
-                          setState(() {
-                            filterBarIsOpen = !filterBarIsOpen;
-                            if (filterBarIsOpen) {
-                              searchBarIsOpen = false;
-                              appBarHeight =
-                                  appBarInitializeValue + filterBarOpenHeight;
-                            } else {
-                              appBarHeight = appBarInitializeValue;
-                            }
-                          });
-                        },
-                        child: Icon(
-                          Icons.filter_list_outlined,
-                          color: Colors.white,
-                        ),
-                      ),
-                      // GestureDetector(
-                      //   onTap: () {
-                      //     setState(() {
-                      //       searchBarIsOpen = !searchBarIsOpen;
-                      //       if (searchBarIsOpen) {
-                      //         filterBarIsOpen = false;
-                      //         appBarHeight =
-                      //             appBarInitializeValue + searchBarOpenHeight;
-                      //       } else {
-                      //         appBarHeight = appBarInitializeValue;
-                      //       }
-                      //     });
-                      //   },
-                      //   child: Icon(
-                      //     Icons.search,
-                      //     color: Colors.white,
-                      //   ),
-                      // ),
-                      GestureDetector(
-                        onTap: () {
-                          setState(() {
-                            searchBarIsOpen = false;
-                            filterBarIsOpen = false;
-                            appBarHeight = appBarInitializeValue;
-                            context
-                                .read<EarthquakeFilterProvider>()
-                                .setInitialValue();
-                          });
-                        },
-                        child: Icon(
-                          Icons.cleaning_services,
-                          color: Colors.white,
-                        ),
-                      ),
-                      SizedBox(
-                        width: 5,
-                      ),
+                      Container(
+                          width: 100,
+                          child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              GestureDetector(
+                                onTap: () {
+                                  setState(() {
+                                    filterBarIsOpen = !filterBarIsOpen;
+                                    if (filterBarIsOpen) {
+                                      searchBarIsOpen = false;
+                                      appBarHeight = appBarInitializeValue +
+                                          filterBarOpenHeight;
+                                    } else {
+                                      appBarHeight = appBarInitializeValue;
+                                    }
+                                  });
+                                },
+                                child: Icon(
+                                  Icons.filter_list_outlined,
+                                  size: 35,
+                                  color: Colors.white,
+                                ),
+                              ),
+                              // GestureDetector(
+                              //   onTap: () {
+                              //     setState(() {
+                              //       searchBarIsOpen = !searchBarIsOpen;
+                              //       if (searchBarIsOpen) {
+                              //         filterBarIsOpen = false;
+                              //         appBarHeight =
+                              //             appBarInitializeValue + searchBarOpenHeight;
+                              //       } else {
+                              //         appBarHeight = appBarInitializeValue;
+                              //       }
+                              //     });
+                              //   },
+                              //   child: Icon(
+                              //     Icons.search,
+                              //     color: Colors.white,
+                              //   ),
+                              // ),
+                              GestureDetector(
+                                onTap: () {
+                                  setState(() {
+                                    searchBarIsOpen = false;
+                                    filterBarIsOpen = false;
+                                    appBarHeight = appBarInitializeValue;
+                                    context
+                                        .read<EarthquakeFilterProvider>()
+                                        .setInitialValue();
+                                  });
+                                },
+                                child: Icon(
+                                  Icons.cleaning_services,
+                                  size: 27,
+                                  color: Colors.white,
+                                ),
+                              ),
+                              SizedBox(
+                                width: 5,
+                              ),
+                            ],
+                          )),
                     ],
                   ),
                 ),
