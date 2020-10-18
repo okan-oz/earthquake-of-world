@@ -1,6 +1,7 @@
 import 'package:earthquakes_of_world/common/utils/localization_util.dart';
+import 'package:earthquakes_of_world/provider/earthquake_filter_provider.dart';
 import 'package:flutter/material.dart';
-
+import 'package:provider/provider.dart';
 class FriendlyException extends StatelessWidget {
   String _title = "";
 
@@ -15,8 +16,10 @@ class FriendlyException extends StatelessWidget {
     }
 
     return Card(
+        margin: EdgeInsets.all(30),
       elevation: 4,
       child: Container(
+      
           decoration: BoxDecoration(
             border: Border.all(
               color: Colors.grey.shade200,
@@ -29,12 +32,17 @@ class FriendlyException extends StatelessWidget {
               leading: Icon(Icons.build, color: Colors.red),
               title: Text(LocalizationUtil.translate(context, 'UnhandledException')),
               subtitle: Text(_title),
-              // trailing: Icon(
-              //   Icons.settings_backup_restore,
-              //   size: 70,
-              //   semanticLabel: "Çok üzgünüz ..",
-              //   color: Colors.green,
-              // ),
+              trailing:GestureDetector(
+                 onTap: () async {
+                    context.read<EarthquakeFilterProvider>().refresh();
+                    return await Future.delayed(Duration(seconds: 1));
+                  },
+                child: Icon(
+                Icons.settings_backup_restore,
+                size: 70,
+                semanticLabel: LocalizationUtil.translate(context, 'UnhandledException'),
+                color: Colors.green,
+              ),) 
             ),
           )),
     );

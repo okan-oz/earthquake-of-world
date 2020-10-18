@@ -2,8 +2,9 @@ import 'package:earthquakes_of_world/common/utils/localization_util.dart';
 import 'package:earthquakes_of_world/provider/earthquake_filter_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
 class EmptyData extends StatelessWidget {
-  String _title ='';
+  String _title = '';
 
   EmptyData();
 
@@ -11,11 +12,9 @@ class EmptyData extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
-  if(_title=='')
-  {
-    LocalizationUtil.translate(context, 'EmptyDateMessage');
-  }
+    if (_title == '') {
+      LocalizationUtil.translate(context, 'EmptyDateMessage');
+    }
 
     return Card(
       margin: EdgeInsets.fromLTRB(20, 50, 20, 0),
@@ -36,17 +35,19 @@ class EmptyData extends StatelessWidget {
                   color: Colors.red,
                   size: 70,
                 ),
-                title: Text(LocalizationUtil.translate(context, 'EmptyDateMessage')),
+                title: Text(
+                    LocalizationUtil.translate(context, 'EmptyDateMessage')),
                 subtitle: Text(_title),
                 trailing: GestureDetector(
-                  onTap: ()async{
-                           context.read<EarthquakeFilterProvider>().refresh();
-         return await Future.delayed(Duration(seconds: 1));
+                  onTap: () async {
+                    context.read<EarthquakeFilterProvider>().refresh();
+                    return await Future.delayed(Duration(seconds: 1));
                   },
                   child: Icon(
                     Icons.settings_backup_restore,
                     size: 70,
-                    semanticLabel: LocalizationUtil.translate(context, 'EmptyDateMessage'),
+                    semanticLabel:
+                        LocalizationUtil.translate(context, 'EmptyDateMessage'),
                     color: Colors.green,
                   ),
                 )),
