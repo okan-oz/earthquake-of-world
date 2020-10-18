@@ -95,7 +95,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                       Container(
                           padding: EdgeInsets.fromLTRB(30, 0, 0, 0),
                           child: Text(
-                            LocalizationUtil.translate(context, 'Earthquakes'),
+                            LocalizationUtil.translate(context, 'ApplicationAppBarTitle'),
                             style: TextStyle(
                                 fontSize: 25,
                                 color: Colors.white,
