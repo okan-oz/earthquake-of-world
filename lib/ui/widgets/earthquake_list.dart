@@ -3,6 +3,7 @@ import 'package:earthquakes_of_world/models/earthquakes.dart';
 import 'package:earthquakes_of_world/models/models.dart';
 import 'package:earthquakes_of_world/provider/earthquake_provider.dart';
 import 'package:earthquakes_of_world/ui/pages/pages.dart';
+import 'package:earthquakes_of_world/ui/widgets/empty_data.dart';
 import 'package:earthquakes_of_world/ui/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
@@ -32,7 +33,12 @@ class _EarthquakeListState extends State<EarthquakeList> {
             default:
               if (snapshot.hasError) {
                 return FriendlyException();
-              } else {
+              }
+              else if(snapshot.data.resultData.features==null || snapshot.data.resultData.features.length==0)
+              {
+                return EmptyData();
+              }
+               else {
                 return ListView.builder(
                     itemCount: snapshot.data.resultData.features.length,
                     itemBuilder: (context, index) {
