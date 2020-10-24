@@ -47,7 +47,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
             },
             controller: _searchController,
             decoration:
-                InputDecoration.collapsed(hintText: 'Lokasyon giriniz..'),
+                InputDecoration.collapsed(hintText: 'Enter locatıon..'),
             autofocus: true,
           ));
     } else {
@@ -80,7 +80,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
         width: MediaQuery.of(context).size.width,
         child: Container(
             decoration: BoxDecoration(
-                color: Colors.red,
+                color: Colors.green,
                 borderRadius: BorderRadius.only(
                     bottomLeft: Radius.circular(15),
                     bottomRight: Radius.circular(15))),
@@ -135,7 +135,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                           });
                         },
                         child: Icon(
-                          Icons.search,
+                          Icons.location_city,
                           color: Colors.white,
                         ),
                       ),

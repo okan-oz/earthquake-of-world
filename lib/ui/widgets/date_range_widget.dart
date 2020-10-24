@@ -77,7 +77,7 @@ class _DateRangeControlState extends State<DateRangeControl> {
                           .read<EarthquakeFilterProvider>()
                           .updateDateRange(_startDate, _endDate);
                     }
-                  }, currentTime: DateTime.now(), locale: LocaleType.en);
+                  }, currentTime: DateTime.now().add(Duration(days:-5)), locale: LocaleType.en);
                 },
                 readOnly: true,
                 decoration: InputDecoration(
@@ -131,7 +131,7 @@ class _DateRangeControlState extends State<DateRangeControl> {
                           .read<EarthquakeFilterProvider>()
                           .updateDateRange(_startDate, _endDate);
                     }
-                  }, currentTime: DateTime.now(), locale: LocaleType.en);
+                  }, currentTime:_endDate, locale: LocaleType.tr);
                 },
                 readOnly: true,
                 decoration: InputDecoration(
