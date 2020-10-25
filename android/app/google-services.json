@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1033876712641",
+    "firebase_url": "https://earthquakes-of-world.firebaseio.com",
+    "project_id": "earthquakes-of-world",
+    "storage_bucket": "earthquakes-of-world.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033876712641:android:3f9bc2aa5e62dc85417840",
+        "android_client_info": {
+          "package_name": "com.ooz.earthquakesofworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033876712641-bpjrcmm2v8nhvmqurvv9d2if5reprhoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiI0ePWNE0ypaSWZWND60Dp8sb8nGFooM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033876712641-bpjrcmm2v8nhvmqurvv9d2if5reprhoi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
