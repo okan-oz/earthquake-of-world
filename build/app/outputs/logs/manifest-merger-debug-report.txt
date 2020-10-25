@@ -5,26 +5,54 @@ INJECTED from /Users/Project/earthquake-of-world/android/app/src/main/AndroidMan
 INJECTED from /Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:1:1-49:12
 INJECTED from /Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:1:1-49:12
 MERGED from /Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:1:1-49:12
+MERGED from [:firebase_crashlytics] /Users/Project/earthquake-of-world/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:google_maps_flutter] /Users/Project/earthquake-of-world/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/Project/earthquake-of-world/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:share] /Users/Project/earthquake-of-world/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/10631bb3012ccad9c5c9285264903a3d/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d389af664e87ee202f7c956c9db2998f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/615cab8ad6393a9c868d48761bbea666/activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/28d99d5113324aa067757f8ca41a426f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e1bbce6b0d79e8479b70e7bd729bb743/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/ef0bef029ab70f5fb29de019060cf5fd/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/49ede1f7b9aa322a43288e9745adc2db/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/54d8b8735f730e83f07925f758092af3/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/23edc849475fdda61367cb003f9b9f93/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:firebase_core] /Users/Project/earthquake-of-world/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26a37e97d711411fbb116473eea0b881/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-common-ktx:19.3.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/bd9d3157027ddb45c3ecaea1d652e4d1/firebase-common-ktx-19.3.0/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.2] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/aadc55814949005d1e2e23db42a8b658/firebase-crashlytics-17.2.2/AndroidManifest.xml:2:1-22:12
+MERGED from [com.google.firebase:firebase-core:17.5.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/db0c7b1ba78f94476f03fd476fff112a/firebase-core-17.5.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e59ebff4d0732fd5361a88f0c83b53d6/firebase-analytics-17.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79731212358108277013cb6c638c0ea9/firebase-installations-16.3.3/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/29b223ae64d5f09d9af70a424eaf334b/firebase-installations-interop-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3f334b5168e2f5f8e922cf152d96a895/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/544bbd57ec6165b67fa598e444675719/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/9c335f966ae78fe0d69e1d161f15a3be/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/270b8a10d5d1b9729dc3da7757552a9f/play-services-measurement-sdk-17.6.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/68429dc9f3c95c7f0096141a78dfc009/play-services-measurement-impl-17.6.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/92adbee96ec5f1f017fcd2730b90440c/play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d7d09e5d6cbd6b64a2976df607a69dc9/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/673c5319460ff8fdc925b8d1d4eb57c3/play-services-measurement-base-17.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/ea50e096fed44bec13243f5afc2a6ed7/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/2c76feb48d97488397197aa309dce947/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/27b846dbc6419782bffc636b872718a3/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3c113a2d3cfcbcc287dc2bfa8d7a3a54/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/77191b2b3497c0791312cde1cb469fa3/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/8a0d9b23fb2d43c9a31945606f603c3f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/98b4b8c0eb8cf17f9810e717014cb177/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/dc0f868091da5fa3cdf690b3a0f5e92b/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/cfdc22a9ab14431642d8ca383b6172b5/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/956a54b55a36d26cd8cf03fa566ff6d2/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/a870a70461e7c5671dc6c113f5ff0ec5/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/9bcd94e23ee956642820ea762e610f3d/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26d67e7023699d387e2e9f4798ec9436/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/ea65864050a92480742176c4202b7659/jetified-transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/2e0f61b8506254a3846ab7fe52f1ffd4/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/2fa8334520dee8e159b99fde441357d2/firebase-encoders-json-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/b475860bca1e578c8a4474c102ed2974/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/4eedcc28504c3aaff06d19903228f7d0/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/df759a2d0dda26b553418622bd11eedf/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/cb432108f3419c4ada016f61902e7cf2/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/22ecdb36c4136e89f8703e7bc3e53309/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d7d718a37e9e14e34b122ec17b89b656/print-1.0.0/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/Project/earthquake-of-world/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/Project/earthquake-of-world/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/Project/earthquake-of-world/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -44,20 +72,58 @@ INJECTED from /Users/Project/earthquake-of-world/android/app/src/debug/AndroidMa
 		ADDED from /Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:1:11-69
 application
 ADDED from /Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:8:5-48:19
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/10631bb3012ccad9c5c9285264903a3d/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/10631bb3012ccad9c5c9285264903a3d/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d389af664e87ee202f7c956c9db2998f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d389af664e87ee202f7c956c9db2998f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [:firebase_crashlytics] /Users/Project/earthquake-of-world/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_crashlytics] /Users/Project/earthquake-of-world/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/Project/earthquake-of-world/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/Project/earthquake-of-world/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26a37e97d711411fbb116473eea0b881/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26a37e97d711411fbb116473eea0b881/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:19.3.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/bd9d3157027ddb45c3ecaea1d652e4d1/firebase-common-ktx-19.3.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:19.3.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/bd9d3157027ddb45c3ecaea1d652e4d1/firebase-common-ktx-19.3.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.2] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/aadc55814949005d1e2e23db42a8b658/firebase-crashlytics-17.2.2/AndroidManifest.xml:12:5-20:19
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.2] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/aadc55814949005d1e2e23db42a8b658/firebase-crashlytics-17.2.2/AndroidManifest.xml:12:5-20:19
+MERGED from [com.google.firebase:firebase-core:17.5.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/db0c7b1ba78f94476f03fd476fff112a/firebase-core-17.5.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.5.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/db0c7b1ba78f94476f03fd476fff112a/firebase-core-17.5.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e59ebff4d0732fd5361a88f0c83b53d6/firebase-analytics-17.6.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e59ebff4d0732fd5361a88f0c83b53d6/firebase-analytics-17.6.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79731212358108277013cb6c638c0ea9/firebase-installations-16.3.3/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79731212358108277013cb6c638c0ea9/firebase-installations-16.3.3/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3f334b5168e2f5f8e922cf152d96a895/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3f334b5168e2f5f8e922cf152d96a895/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/544bbd57ec6165b67fa598e444675719/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/544bbd57ec6165b67fa598e444675719/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/9c335f966ae78fe0d69e1d161f15a3be/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/9c335f966ae78fe0d69e1d161f15a3be/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/270b8a10d5d1b9729dc3da7757552a9f/play-services-measurement-sdk-17.6.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/270b8a10d5d1b9729dc3da7757552a9f/play-services-measurement-sdk-17.6.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/68429dc9f3c95c7f0096141a78dfc009/play-services-measurement-impl-17.6.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/68429dc9f3c95c7f0096141a78dfc009/play-services-measurement-impl-17.6.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/92adbee96ec5f1f017fcd2730b90440c/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/92adbee96ec5f1f017fcd2730b90440c/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/673c5319460ff8fdc925b8d1d4eb57c3/play-services-measurement-base-17.6.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/673c5319460ff8fdc925b8d1d4eb57c3/play-services-measurement-base-17.6.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/ea50e096fed44bec13243f5afc2a6ed7/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/ea50e096fed44bec13243f5afc2a6ed7/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/2c76feb48d97488397197aa309dce947/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/2c76feb48d97488397197aa309dce947/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/cfdc22a9ab14431642d8ca383b6172b5/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/cfdc22a9ab14431642d8ca383b6172b5/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/4eedcc28504c3aaff06d19903228f7d0/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/4eedcc28504c3aaff06d19903228f7d0/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/cfdc22a9ab14431642d8ca383b6172b5/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:10:9-45
 	android:icon
@@ -116,46 +182,102 @@ uses-sdk
 INJECTED from /Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_crashlytics] /Users/Project/earthquake-of-world/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_crashlytics] /Users/Project/earthquake-of-world/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:google_maps_flutter] /Users/Project/earthquake-of-world/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:google_maps_flutter] /Users/Project/earthquake-of-world/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /Users/Project/earthquake-of-world/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /Users/Project/earthquake-of-world/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:share] /Users/Project/earthquake-of-world/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:share] /Users/Project/earthquake-of-world/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/10631bb3012ccad9c5c9285264903a3d/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/10631bb3012ccad9c5c9285264903a3d/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d389af664e87ee202f7c956c9db2998f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d389af664e87ee202f7c956c9db2998f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/615cab8ad6393a9c868d48761bbea666/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/615cab8ad6393a9c868d48761bbea666/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/28d99d5113324aa067757f8ca41a426f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/28d99d5113324aa067757f8ca41a426f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e1bbce6b0d79e8479b70e7bd729bb743/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e1bbce6b0d79e8479b70e7bd729bb743/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/ef0bef029ab70f5fb29de019060cf5fd/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/ef0bef029ab70f5fb29de019060cf5fd/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/49ede1f7b9aa322a43288e9745adc2db/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/49ede1f7b9aa322a43288e9745adc2db/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/54d8b8735f730e83f07925f758092af3/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/54d8b8735f730e83f07925f758092af3/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/23edc849475fdda61367cb003f9b9f93/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/23edc849475fdda61367cb003f9b9f93/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [:firebase_core] /Users/Project/earthquake-of-world/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/Project/earthquake-of-world/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26a37e97d711411fbb116473eea0b881/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26a37e97d711411fbb116473eea0b881/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:19.3.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/bd9d3157027ddb45c3ecaea1d652e4d1/firebase-common-ktx-19.3.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:19.3.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/bd9d3157027ddb45c3ecaea1d652e4d1/firebase-common-ktx-19.3.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.2] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/aadc55814949005d1e2e23db42a8b658/firebase-crashlytics-17.2.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.2] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/aadc55814949005d1e2e23db42a8b658/firebase-crashlytics-17.2.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-core:17.5.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/db0c7b1ba78f94476f03fd476fff112a/firebase-core-17.5.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.5.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/db0c7b1ba78f94476f03fd476fff112a/firebase-core-17.5.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e59ebff4d0732fd5361a88f0c83b53d6/firebase-analytics-17.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e59ebff4d0732fd5361a88f0c83b53d6/firebase-analytics-17.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79731212358108277013cb6c638c0ea9/firebase-installations-16.3.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79731212358108277013cb6c638c0ea9/firebase-installations-16.3.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/29b223ae64d5f09d9af70a424eaf334b/firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/29b223ae64d5f09d9af70a424eaf334b/firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3f334b5168e2f5f8e922cf152d96a895/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3f334b5168e2f5f8e922cf152d96a895/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/544bbd57ec6165b67fa598e444675719/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/544bbd57ec6165b67fa598e444675719/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/9c335f966ae78fe0d69e1d161f15a3be/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/9c335f966ae78fe0d69e1d161f15a3be/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/270b8a10d5d1b9729dc3da7757552a9f/play-services-measurement-sdk-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/270b8a10d5d1b9729dc3da7757552a9f/play-services-measurement-sdk-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/68429dc9f3c95c7f0096141a78dfc009/play-services-measurement-impl-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/68429dc9f3c95c7f0096141a78dfc009/play-services-measurement-impl-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/92adbee96ec5f1f017fcd2730b90440c/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/92adbee96ec5f1f017fcd2730b90440c/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d7d09e5d6cbd6b64a2976df607a69dc9/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d7d09e5d6cbd6b64a2976df607a69dc9/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/673c5319460ff8fdc925b8d1d4eb57c3/play-services-measurement-base-17.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/673c5319460ff8fdc925b8d1d4eb57c3/play-services-measurement-base-17.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/ea50e096fed44bec13243f5afc2a6ed7/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/ea50e096fed44bec13243f5afc2a6ed7/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/2c76feb48d97488397197aa309dce947/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/2c76feb48d97488397197aa309dce947/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/27b846dbc6419782bffc636b872718a3/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/27b846dbc6419782bffc636b872718a3/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3c113a2d3cfcbcc287dc2bfa8d7a3a54/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3c113a2d3cfcbcc287dc2bfa8d7a3a54/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/77191b2b3497c0791312cde1cb469fa3/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/77191b2b3497c0791312cde1cb469fa3/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/8a0d9b23fb2d43c9a31945606f603c3f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/8a0d9b23fb2d43c9a31945606f603c3f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/98b4b8c0eb8cf17f9810e717014cb177/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/98b4b8c0eb8cf17f9810e717014cb177/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/dc0f868091da5fa3cdf690b3a0f5e92b/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/dc0f868091da5fa3cdf690b3a0f5e92b/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/cfdc22a9ab14431642d8ca383b6172b5/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/cfdc22a9ab14431642d8ca383b6172b5/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/956a54b55a36d26cd8cf03fa566ff6d2/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/956a54b55a36d26cd8cf03fa566ff6d2/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/a870a70461e7c5671dc6c113f5ff0ec5/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/a870a70461e7c5671dc6c113f5ff0ec5/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/9bcd94e23ee956642820ea762e610f3d/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/9bcd94e23ee956642820ea762e610f3d/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26d67e7023699d387e2e9f4798ec9436/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26d67e7023699d387e2e9f4798ec9436/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/ea65864050a92480742176c4202b7659/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/ea65864050a92480742176c4202b7659/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/2e0f61b8506254a3846ab7fe52f1ffd4/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/2e0f61b8506254a3846ab7fe52f1ffd4/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/2fa8334520dee8e159b99fde441357d2/firebase-encoders-json-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/2fa8334520dee8e159b99fde441357d2/firebase-encoders-json-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/b475860bca1e578c8a4474c102ed2974/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/b475860bca1e578c8a4474c102ed2974/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/4eedcc28504c3aaff06d19903228f7d0/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/4eedcc28504c3aaff06d19903228f7d0/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/df759a2d0dda26b553418622bd11eedf/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/df759a2d0dda26b553418622bd11eedf/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/cb432108f3419c4ada016f61902e7cf2/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/cb432108f3419c4ada016f61902e7cf2/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/22ecdb36c4136e89f8703e7bc3e53309/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/22ecdb36c4136e89f8703e7bc3e53309/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d7d718a37e9e14e34b122ec17b89b656/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d7d718a37e9e14e34b122ec17b89b656/print-1.0.0/AndroidManifest.xml:20:5-44
 INJECTED from /Users/Project/earthquake-of-world/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/Project/earthquake-of-world/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -166,37 +288,213 @@ INJECTED from /Users/Project/earthquake-of-world/android/app/src/debug/AndroidMa
 		INJECTED from /Users/Project/earthquake-of-world/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from /Users/Project/earthquake-of-world/android/app/src/debug/AndroidManifest.xml:6:5-66
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.2] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/aadc55814949005d1e2e23db42a8b658/firebase-crashlytics-17.2.2/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.2] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/aadc55814949005d1e2e23db42a8b658/firebase-crashlytics-17.2.2/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79731212358108277013cb6c638c0ea9/firebase-installations-16.3.3/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79731212358108277013cb6c638c0ea9/firebase-installations-16.3.3/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/68429dc9f3c95c7f0096141a78dfc009/play-services-measurement-impl-17.6.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/68429dc9f3c95c7f0096141a78dfc009/play-services-measurement-impl-17.6.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d7d09e5d6cbd6b64a2976df607a69dc9/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d7d09e5d6cbd6b64a2976df607a69dc9/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:26:5-67
 	android:name
 		ADDED from /Users/Project/earthquake-of-world/android/app/src/debug/AndroidManifest.xml:6:22-64
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
-uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
-	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
-uses-library#org.apache.http.legacy
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_crashlytics] /Users/Project/earthquake-of-world/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/Project/earthquake-of-world/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/Project/earthquake-of-world/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26a37e97d711411fbb116473eea0b881/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26a37e97d711411fbb116473eea0b881/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-common-ktx:19.3.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/bd9d3157027ddb45c3ecaea1d652e4d1/firebase-common-ktx-19.3.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:19.3.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/bd9d3157027ddb45c3ecaea1d652e4d1/firebase-common-ktx-19.3.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.2] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/aadc55814949005d1e2e23db42a8b658/firebase-crashlytics-17.2.2/AndroidManifest.xml:13:9-19:19
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.2] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/aadc55814949005d1e2e23db42a8b658/firebase-crashlytics-17.2.2/AndroidManifest.xml:13:9-19:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79731212358108277013cb6c638c0ea9/firebase-installations-16.3.3/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79731212358108277013cb6c638c0ea9/firebase-installations-16.3.3/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:33:9-37:35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26a37e97d711411fbb116473eea0b881/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:10:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d389af664e87ee202f7c956c9db2998f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+		ADDED from [:firebase_crashlytics] /Users/Project/earthquake-of-world/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_crashlytics] /Users/Project/earthquake-of-world/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d389af664e87ee202f7c956c9db2998f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+		ADDED from [:firebase_crashlytics] /Users/Project/earthquake-of-world/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d389af664e87ee202f7c956c9db2998f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+		ADDED from [:firebase_crashlytics] /Users/Project/earthquake-of-world/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-130
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/Project/earthquake-of-world/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/Project/earthquake-of-world/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/Project/earthquake-of-world/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar
+ADDED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26a37e97d711411fbb116473eea0b881/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26a37e97d711411fbb116473eea0b881/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26a37e97d711411fbb116473eea0b881/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:12:17-126
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:19.3.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/bd9d3157027ddb45c3ecaea1d652e4d1/firebase-common-ktx-19.3.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:19.3.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/bd9d3157027ddb45c3ecaea1d652e4d1/firebase-common-ktx-19.3.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:19.3.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/bd9d3157027ddb45c3ecaea1d652e4d1/firebase-common-ktx-19.3.0/AndroidManifest.xml:16:17-113
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:17.2.2] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/aadc55814949005d1e2e23db42a8b658/firebase-crashlytics-17.2.2/AndroidManifest.xml:16:13-18:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:17.2.2] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/aadc55814949005d1e2e23db42a8b658/firebase-crashlytics-17.2.2/AndroidManifest.xml:18:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:17.2.2] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/aadc55814949005d1e2e23db42a8b658/firebase-crashlytics-17.2.2/AndroidManifest.xml:17:17-115
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79731212358108277013cb6c638c0ea9/firebase-installations-16.3.3/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79731212358108277013cb6c638c0ea9/firebase-installations-16.3.3/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/68429dc9f3c95c7f0096141a78dfc009/play-services-measurement-impl-17.6.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/68429dc9f3c95c7f0096141a78dfc009/play-services-measurement-impl-17.6.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d7d09e5d6cbd6b64a2976df607a69dc9/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d7d09e5d6cbd6b64a2976df607a69dc9/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/68429dc9f3c95c7f0096141a78dfc009/play-services-measurement-impl-17.6.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/68429dc9f3c95c7f0096141a78dfc009/play-services-measurement-impl-17.6.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d7d09e5d6cbd6b64a2976df607a69dc9/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d7d09e5d6cbd6b64a2976df607a69dc9/play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.3.3] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79731212358108277013cb6c638c0ea9/firebase-installations-16.3.3/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.3.3] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79731212358108277013cb6c638c0ea9/firebase-installations-16.3.3/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.3.3] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79731212358108277013cb6c638c0ea9/firebase-installations-16.3.3/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3f334b5168e2f5f8e922cf152d96a895/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3f334b5168e2f5f8e922cf152d96a895/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3f334b5168e2f5f8e922cf152d96a895/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3f334b5168e2f5f8e922cf152d96a895/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/68429dc9f3c95c7f0096141a78dfc009/play-services-measurement-impl-17.6.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/68429dc9f3c95c7f0096141a78dfc009/play-services-measurement-impl-17.6.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/2c76feb48d97488397197aa309dce947/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/2c76feb48d97488397197aa309dce947/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/2c76feb48d97488397197aa309dce947/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:33:13-132

@@ -1,4 +1,4 @@
-#Sun Oct 18 22:55:50 EET 2020
+#Sun Oct 25 21:18:08 EET 2020
 base.0=/Users/Project/earthquake-of-world/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

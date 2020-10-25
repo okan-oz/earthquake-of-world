@@ -16,124 +16,254 @@
 14-->/Users/Project/earthquake-of-world/android/app/src/debug/AndroidManifest.xml:6:22-64
 15    <!-- Include required permissions for Google Maps API to run. -->
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
-16-->[com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+16-->[com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
 17
 18    <uses-feature
-18-->[com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+18-->[com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
 19        android:glEsVersion="0x00020000"
-19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
 20        android:required="true" />
-20-->[com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
-21    <!--
-22 io.flutter.app.FlutterApplication is an android.app.Application that
-23         calls FlutterMain.startInitialization(this); in its onCreate method.
-24         In most cases you can leave this as-is, but you if you want to provide
-25         additional functionality it is fine to subclass or reimplement
-26         FlutterApplication and put your custom class here.
-27    -->
-28    <application
-28-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:8:5-48:19
-29        android:name="io.flutter.app.FlutterApplication"
-29-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:9:9-57
-30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-30-->[androidx.core:core:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
-31        android:debuggable="true"
-32        android:icon="@mipmap/ic_launcher"
-32-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:11:9-43
-33        android:label="earthquakes_of_world" >
-33-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:10:9-45
-34        <activity
-34-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:12:9-40:20
-35            android:name="com.ooz.earthquakesofworld.MainActivity"
-35-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:13:13-41
-36            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-36-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:16:13-163
-37            android:hardwareAccelerated="true"
-37-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:17:13-47
-38            android:launchMode="singleTop"
-38-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:14:13-43
-39            android:theme="@style/LaunchTheme"
-39-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:15:13-47
-40            android:windowSoftInputMode="adjustResize" >
-40-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:18:13-55
-41
-42            <!--
-43                 Specifies an Android theme to apply to this Activity as soon as
-44                 the Android process has started. This theme is visible to the user
-45                 while the Flutter UI initializes. After that, this theme continues
-46                 to determine the Window background behind the Flutter UI.
-47            -->
-48            <meta-data
-48-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:23:13-26:17
-49                android:name="io.flutter.embedding.android.NormalTheme"
-49-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:24:15-70
-50                android:resource="@style/NormalTheme" />
-50-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:25:15-52
-51            <!--
-52                 Displays an Android View that continues showing the launch screen
-53                 Drawable until Flutter paints its first frame, then this splash
-54                 screen fades out. A splash screen is useful to avoid any visual
-55                 gap between the end of Android's launch screen and the painting of
-56                 Flutter's first frame.
-57            -->
-58            <meta-data
-58-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:32:13-35:17
-59                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-59-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:33:15-79
-60                android:resource="@drawable/launch_background" />
-60-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:34:15-61
-61
-62            <intent-filter>
-62-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:36:13-39:29
-63                <action android:name="android.intent.action.MAIN" />
-63-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:37:17-68
-63-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:37:25-66
+20-->[com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+21
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:24:5-68
+22-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:24:22-65
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:26:22-107
+24    <!--
+25 io.flutter.app.FlutterApplication is an android.app.Application that
+26         calls FlutterMain.startInitialization(this); in its onCreate method.
+27         In most cases you can leave this as-is, but you if you want to provide
+28         additional functionality it is fine to subclass or reimplement
+29         FlutterApplication and put your custom class here.
+30    -->
+31    <application
+31-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:8:5-48:19
+32        android:name="io.flutter.app.FlutterApplication"
+32-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:9:9-57
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/cfdc22a9ab14431642d8ca383b6172b5/core-1.1.0/AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:11:9-43
+36        android:label="earthquakes_of_world" >
+36-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:10:9-45
+37        <activity
+37-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:12:9-40:20
+38            android:name="com.ooz.earthquakesofworld.MainActivity"
+38-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:13:13-41
+39            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+39-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:16:13-163
+40            android:hardwareAccelerated="true"
+40-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:17:13-47
+41            android:launchMode="singleTop"
+41-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:14:13-43
+42            android:theme="@style/LaunchTheme"
+42-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:15:13-47
+43            android:windowSoftInputMode="adjustResize" >
+43-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:18:13-55
+44
+45            <!--
+46                 Specifies an Android theme to apply to this Activity as soon as
+47                 the Android process has started. This theme is visible to the user
+48                 while the Flutter UI initializes. After that, this theme continues
+49                 to determine the Window background behind the Flutter UI.
+50            -->
+51            <meta-data
+51-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:23:13-26:17
+52                android:name="io.flutter.embedding.android.NormalTheme"
+52-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:24:15-70
+53                android:resource="@style/NormalTheme" />
+53-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:25:15-52
+54            <!--
+55                 Displays an Android View that continues showing the launch screen
+56                 Drawable until Flutter paints its first frame, then this splash
+57                 screen fades out. A splash screen is useful to avoid any visual
+58                 gap between the end of Android's launch screen and the painting of
+59                 Flutter's first frame.
+60            -->
+61            <meta-data
+61-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:32:13-35:17
+62                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+62-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:33:15-79
+63                android:resource="@drawable/launch_background" />
+63-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:34:15-61
 64
-65                <category android:name="android.intent.category.LAUNCHER" />
-65-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:38:17-76
-65-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:38:27-74
-66            </intent-filter>
-67        </activity>
-68        <!--
-69             Don't delete the meta-data below.
-70             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-71        -->
-72        <meta-data
-72-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:43:9-45:33
-73            android:name="flutterEmbedding"
-73-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:44:13-44
-74            android:value="2" />
-74-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:45:13-30
+65            <intent-filter>
+65-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:36:13-39:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:37:17-68
+66-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:37:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:38:17-76
+68-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:38:27-74
+69            </intent-filter>
+70        </activity>
+71        <!--
+72             Don't delete the meta-data below.
+73             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+74        -->
 75        <meta-data
-75-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:46:10-47:73
-76            android:name="com.google.android.geo.API_KEY"
-76-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:46:21-66
-77            android:value="AIzaSyClYzSdRxhPw9CnHVkklTVcpyFgD0bXTO0" />
-77-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:47:16-71
-78        <!-- Needs to be explicitly declared on P+ -->
-79        <uses-library
-79-->[com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
-80            android:name="org.apache.http.legacy"
-80-->[com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
-81            android:required="false" />
-81-->[com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
-82
-83        <activity
-83-->[com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-84            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-84-->[com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-85            android:exported="false"
-85-->[com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-86-->[com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/5ac9ad6f13ea0190a3570ea7a43d9f59/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-87
-88        <meta-data
-88-->[com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d389af664e87ee202f7c956c9db2998f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-89            android:name="com.google.android.gms.version"
-89-->[com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d389af664e87ee202f7c956c9db2998f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-90            android:value="@integer/google_play_services_version" />
-90-->[com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d389af664e87ee202f7c956c9db2998f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-91    </application>
-92
-93</manifest>
+75-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:43:9-45:33
+76            android:name="flutterEmbedding"
+76-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:44:13-44
+77            android:value="2" />
+77-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:45:13-30
+78        <meta-data
+78-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:46:10-47:73
+79            android:name="com.google.android.geo.API_KEY"
+79-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:46:21-66
+80            android:value="AIzaSyClYzSdRxhPw9CnHVkklTVcpyFgD0bXTO0" />
+80-->/Users/Project/earthquake-of-world/android/app/src/main/AndroidManifest.xml:47:16-71
+81
+82        <service
+82-->[:firebase_crashlytics] /Users/Project/earthquake-of-world/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+83            android:name="com.google.firebase.components.ComponentDiscoveryService"
+83-->[:firebase_crashlytics] /Users/Project/earthquake-of-world/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+84            android:directBootAware="true"
+84-->[com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:35:13-43
+85            android:exported="false" >
+85-->[com.google.firebase:firebase-analytics-ktx:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26a37e97d711411fbb116473eea0b881/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:10:13-37
+86            <meta-data
+86-->[:firebase_crashlytics] /Users/Project/earthquake-of-world/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+87                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+87-->[:firebase_crashlytics] /Users/Project/earthquake-of-world/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-130
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[:firebase_crashlytics] /Users/Project/earthquake-of-world/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+89            <meta-data
+89-->[:firebase_core] /Users/Project/earthquake-of-world/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+90                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+90-->[:firebase_core] /Users/Project/earthquake-of-world/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[:firebase_core] /Users/Project/earthquake-of-world/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-analytics-ktx:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26a37e97d711411fbb116473eea0b881/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:11:13-13:85
+93                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+93-->[com.google.firebase:firebase-analytics-ktx:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26a37e97d711411fbb116473eea0b881/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:12:17-126
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-analytics-ktx:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/26a37e97d711411fbb116473eea0b881/firebase-analytics-ktx-17.6.0/AndroidManifest.xml:13:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-common-ktx:19.3.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/bd9d3157027ddb45c3ecaea1d652e4d1/firebase-common-ktx-19.3.0/AndroidManifest.xml:15:13-17:85
+96                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+96-->[com.google.firebase:firebase-common-ktx:19.3.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/bd9d3157027ddb45c3ecaea1d652e4d1/firebase-common-ktx-19.3.0/AndroidManifest.xml:16:17-113
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-common-ktx:19.3.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/bd9d3157027ddb45c3ecaea1d652e4d1/firebase-common-ktx-19.3.0/AndroidManifest.xml:17:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-crashlytics:17.2.2] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/aadc55814949005d1e2e23db42a8b658/firebase-crashlytics-17.2.2/AndroidManifest.xml:16:13-18:85
+99                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+99-->[com.google.firebase:firebase-crashlytics:17.2.2] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/aadc55814949005d1e2e23db42a8b658/firebase-crashlytics-17.2.2/AndroidManifest.xml:17:17-115
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-crashlytics:17.2.2] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/aadc55814949005d1e2e23db42a8b658/firebase-crashlytics-17.2.2/AndroidManifest.xml:18:17-82
+101            <meta-data
+101-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:30:13-32:85
+102                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+102-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:31:17-139
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/d1d69f759b0f9ca9ef5ae25e975b891c/play-services-measurement-api-17.6.0/AndroidManifest.xml:32:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-installations:16.3.3] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79731212358108277013cb6c638c0ea9/firebase-installations-16.3.3/AndroidManifest.xml:17:13-19:85
+105                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+105-->[com.google.firebase:firebase-installations:16.3.3] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79731212358108277013cb6c638c0ea9/firebase-installations-16.3.3/AndroidManifest.xml:18:17-127
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-installations:16.3.3] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/79731212358108277013cb6c638c0ea9/firebase-installations-16.3.3/AndroidManifest.xml:19:17-82
+107        </service> <!-- Needs to be explicitly declared on P+ -->
+108        <uses-library
+108-->[com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+109            android:name="org.apache.http.legacy"
+109-->[com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+110            android:required="false" />
+110-->[com.google.android.gms:play-services-maps:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/955ce0a3fd6cabe593bbdc9b1b618b2d/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+111
+112        <provider
+112-->[com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:26:9-31:39
+113            android:name="com.google.firebase.provider.FirebaseInitProvider"
+113-->[com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:27:13-77
+114            android:authorities="com.ooz.earthquakesofworld.firebaseinitprovider"
+114-->[com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:28:13-72
+115            android:directBootAware="true"
+115-->[com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:29:13-43
+116            android:exported="false"
+116-->[com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:30:13-37
+117            android:initOrder="100" />
+117-->[com.google.firebase:firebase-common:19.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/59535b0c45ec473c30ed58a511266c86/jetified-firebase-common-19.3.1/AndroidManifest.xml:31:13-36
+118
+119        <activity
+119-->[com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3f334b5168e2f5f8e922cf152d96a895/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+120            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+120-->[com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3f334b5168e2f5f8e922cf152d96a895/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+121            android:exported="false"
+121-->[com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3f334b5168e2f5f8e922cf152d96a895/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+122-->[com.google.android.gms:play-services-base:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3f334b5168e2f5f8e922cf152d96a895/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+123
+124        <receiver
+124-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:29:9-33:20
+125            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+125-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:30:13-85
+126            android:enabled="true"
+126-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:31:13-35
+127            android:exported="false" >
+127-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:32:13-37
+128        </receiver>
+129
+130        <service
+130-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:35:9-38:40
+131            android:name="com.google.android.gms.measurement.AppMeasurementService"
+131-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:36:13-84
+132            android:enabled="true"
+132-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:37:13-35
+133            android:exported="false" />
+133-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:38:13-37
+134        <service
+134-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:39:9-43:72
+135            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+135-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:40:13-87
+136            android:enabled="true"
+136-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:41:13-35
+137            android:exported="false"
+137-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:42:13-37
+138            android:permission="android.permission.BIND_JOB_SERVICE" />
+138-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/789415a8e3d7f8e13cbfe9657929cf21/play-services-measurement-17.6.0/AndroidManifest.xml:43:13-69
+139
+140        <meta-data
+140-->[com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/2c76feb48d97488397197aa309dce947/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+141            android:name="com.google.android.gms.version"
+141-->[com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/2c76feb48d97488397197aa309dce947/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+142            android:value="@integer/google_play_services_version" />
+142-->[com.google.android.gms:play-services-basement:17.0.0] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/2c76feb48d97488397197aa309dce947/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+143
+144        <service
+144-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:29:9-35:19
+145            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+145-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:30:13-103
+146            android:exported="false" >
+146-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:31:13-37
+147            <meta-data
+147-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:32:13-34:39
+148                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+148-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:33:17-94
+149                android:value="cct" />
+149-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/e124dedef6753fb6db78d8173a5c84e7/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:34:17-36
+150        </service>
+151        <service
+151-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:26:9-30:19
+152            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+152-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:27:13-117
+153            android:exported="false"
+153-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:28:13-37
+154            android:permission="android.permission.BIND_JOB_SERVICE" >
+154-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:29:13-69
+155        </service>
+156
+157        <receiver
+157-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:32:9-34:40
+158            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+158-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:33:13-132
+159            android:exported="false" />
+159-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/okanoz/.gradle/caches/transforms-2/files-2.1/3291a484c18bdcbfb37c180f9e32d775/jetified-transport-runtime-2.2.4/AndroidManifest.xml:34:13-37
+160    </application>
+161
+162</manifest>
