@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:intl/intl.dart';
+import 'package:super_alertbox/super_snackbar.dart';
 
 DateFormat dateFormat = DateFormat("yyyy-MM-dd HH:mm:ss");
 
@@ -35,18 +36,18 @@ class Utils {
     return Colors.white;
   }
 
-  // static void ShowAlert(BuildContext context, String title, String message) {
-  //   SuperSnackBar.showFlushbar(title, message, context);
-  // }
+  static void ShowAlert(BuildContext context, String title, String message) {
+    SuperSnackBar.showFlushbar(title, message, context);
+  }
 
-  // static void ShowUpdateEqInfo(BuildContext context) {
-  //   Utils.ShowAlert(context, "Güncellendi", "Deprem verileri yeniden alındı..");
-  // }
+  static void ShowUpdateEqInfo(BuildContext context) {
+    Utils.ShowAlert(context, "Güncellendi", "Deprem verileri yeniden alındı..");
+  }
 
-  // static void ShowClearEqFilterInfo(BuildContext context) {
-  //   Utils.ShowAlert(context, "Filtreler temizlendi",
-  //       "Deprem verileri filtre olmadan yeniden alındı..");
-  // }
+  static void ShowClearEqFilterInfo(BuildContext context) {
+    Utils.ShowAlert(context, "Filtreler temizlendi",
+        "Deprem verileri filtre olmadan yeniden alındı..");
+  }
 
   static String formatDate(DateTime value) {
     return dateFormat.format(value);
