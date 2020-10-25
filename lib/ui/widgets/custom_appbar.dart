@@ -23,7 +23,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
   bool searchBarIsOpen = false;
   bool filterBarIsOpen = false;
   TextEditingController _searchController;
-    //date range 
+    
   //date range alanı
   DateTimeRange myDateRange;
 
