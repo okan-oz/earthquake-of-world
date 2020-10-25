@@ -24,6 +24,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
   bool filterBarIsOpen = false;
   TextEditingController _searchController;
 
+  //date range alanı
   DateTimeRange myDateRange;
 
   Widget _getSearchText() {

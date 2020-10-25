@@ -20,7 +20,7 @@ runZonedGuarded(() {
     child: MyApp(),
   ));
   }, (error, stackTrace) {
-    Logger.recordError(error, stackTrace, "Caught error in my root zone.Error code:27");
+    Logger.recordError(error, stackTrace, "  error in my root zone.Error code:27");
   });
 
 }
