@@ -20,7 +20,7 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Container(
+        body:SafeArea(child: Container(
       child: CustomScrollView(
         physics: const BouncingScrollPhysics(),
         slivers: <Widget>[
@@ -41,27 +41,20 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
                   EdgeInsetsDirectional.only(start: 10, bottom: 16, top: 10),
               title: ListTile(
                 leading: CircleAvatar(
-                  radius: 20,
+                  radius: 50,
                   backgroundColor: Utils.decideListTileColor(
                       widget.earthquake.properties.mag),
                   child: Text(widget.earthquake.properties.mag.toString(),
                       style: _getAppBarDetailTextStyle()),
                 ),
-                title: Text(
-                  widget.earthquake.properties.place,
-                  style: TextStyle(
-                      fontSize: 16,
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold),
-                ),
-                subtitle: Text(
-                  Utils.converIntToDate(widget.earthquake.properties.time)
-                      .toString(),
-                  style: TextStyle(
-                      fontSize: 12,
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold),
-                ),
+                // title: Text(
+                //   widget.earthquake.properties.place,
+                //   style: TextStyle(
+                //       fontSize: 16,
+                //       color: Colors.white,
+                //       fontWeight: FontWeight.bold),
+                // ),
+                
               ),
               background: Stack(
                 fit: StackFit.expand,
@@ -144,9 +137,9 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
                 title: Text(
                   LocalizationUtil.translate(context, 'Share'),
                 ),
-                subtitle: Text(
-                  LocalizationUtil.translate(context, 'Share'),
-                ),
+                // subtitle: Text(
+                //   LocalizationUtil.translate(context, 'Share'),
+                // ),
               ),
               // ListTiles++
             ]),
@@ -161,6 +154,6 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
           ),
         ],
       ),
-    ));
+    )));
   }
 }
