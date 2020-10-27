@@ -96,7 +96,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Container(
-                          padding: EdgeInsets.fromLTRB(30, 0, 0, 0),
+                          padding: EdgeInsets.fromLTRB(10, 0, 0, 0),
                           child: AutoSizeText(
                             LocalizationUtil.translate(
                                 context, 'ApplicationAppBarTitle'),

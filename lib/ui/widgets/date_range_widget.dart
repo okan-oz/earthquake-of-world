@@ -29,13 +29,12 @@ class _DateRangeControlState extends State<DateRangeControl> {
   @override
   Widget build(BuildContext context) {
     return Container(
-  
+
         child: Row(
       crossAxisAlignment: CrossAxisAlignment.start,
-      mainAxisAlignment: MainAxisAlignment.start,
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Container(
-   
             alignment: Alignment.center,
             width: 160,
             height: 45,
@@ -48,7 +47,7 @@ class _DateRangeControlState extends State<DateRangeControl> {
                 borderRadius: BorderRadius.circular(10.0)),
             child: GestureDetector(
               child: TextField(
-               style: TextStyle(fontSize: 13),
+                style: TextStyle(fontSize: 13),
                 controller: _startDateController
                   ..text = _getDateText(context
                       .watch<EarthquakeFilterProvider>()
@@ -75,7 +74,7 @@ class _DateRangeControlState extends State<DateRangeControl> {
                   }, onConfirm: (date) {
                     print('confirm $date');
                     if (date.isBefore(_endDate)) {
-                        _startDate = date;
+                      _startDate = date;
                       context
                           .read<EarthquakeFilterProvider>()
                           .updateDateRange(_startDate, _endDate);
@@ -85,7 +84,10 @@ class _DateRangeControlState extends State<DateRangeControl> {
                 readOnly: true,
                 decoration: InputDecoration(
                   filled: true,
-                  suffixIcon: Icon(Icons.date_range,color: Colors.red,),
+                  suffixIcon: Icon(
+                    Icons.date_range,
+                    color: Colors.red,
+                  ),
                   border: InputBorder.none,
                 ),
                 autofocus: true,
@@ -141,7 +143,10 @@ class _DateRangeControlState extends State<DateRangeControl> {
                 readOnly: true,
                 decoration: InputDecoration(
                   filled: true,
-                  suffixIcon: Icon(Icons.date_range,color: Colors.red,),
+                  suffixIcon: Icon(
+                    Icons.date_range,
+                    color: Colors.red,
+                  ),
                   border: InputBorder.none,
                 ),
                 autofocus: true,
