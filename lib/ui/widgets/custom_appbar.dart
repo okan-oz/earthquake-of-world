@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:earthquakes_of_world/common/utils/localization_util.dart';
 import 'package:earthquakes_of_world/provider/earthquake_filter_provider.dart';
 import 'package:earthquakes_of_world/ui/widgets/range_slider.dart';
@@ -23,7 +24,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
   bool searchBarIsOpen = false;
   bool filterBarIsOpen = false;
   TextEditingController _searchController;
-    
+
   //date range alanı
   DateTimeRange myDateRange;
 
@@ -96,13 +97,14 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                     children: [
                       Container(
                           padding: EdgeInsets.fromLTRB(30, 0, 0, 0),
-                          child: Text(
+                          child: AutoSizeText(
                             LocalizationUtil.translate(
                                 context, 'ApplicationAppBarTitle'),
-                            style: TextStyle(
-                                fontSize: 30,
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold),
+                            minFontSize: 19,
+                            maxFontSize: 30,
+                            maxLines: 1,
+                            style: TextStyle(fontWeight: FontWeight.bold,
+                            color: Colors.white),
                           )),
                       Container(
                           width: 100,
