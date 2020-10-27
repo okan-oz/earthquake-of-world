@@ -17,7 +17,7 @@ class CustomSearchAppBar extends StatefulWidget implements PreferredSizeWidget {
 }
 
 class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
-  double appBarInitializeValue = 110;
+  double appBarInitializeValue = 90;
   double appBarHeight = 100;
   double searchBarOpenHeight = 40;
   double filterBarOpenHeight = 120;
