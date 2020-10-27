@@ -20,7 +20,8 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body:SafeArea(child: Container(
+        body: SafeArea(
+            child: Container(
       child: CustomScrollView(
         physics: const BouncingScrollPhysics(),
         slivers: <Widget>[
@@ -54,7 +55,6 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
                 //       color: Colors.white,
                 //       fontWeight: FontWeight.bold),
                 // ),
-                
               ),
               background: Stack(
                 fit: StackFit.expand,
@@ -83,22 +83,34 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
           ),
           SliverList(
             delegate: SliverChildListDelegate([
+              SizedBox(
+                height: 10,
+              ),
               ListTile(
-                leading: Icon(
-                  Icons.dialpad,
-                  color: Colors.brown,
+                leading: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Icon(
+                      Icons.dialpad,
+                      size:29,
+                      color: Colors.brown,
+                    ),
+                    Text(
+                      LocalizationUtil.translate(context, 'Depth'),
+                      style: TextStyle(fontSize: 10),
+                    ),
+                  ],
                 ),
-                title: Text(LocalizationUtil.translate(context, 'Depth')),
-                subtitle:
+                title:
                     Text(widget.earthquake.geometry.coordinates[2].toString()),
               ),
               ListTile(
                 leading: Icon(
                   Icons.timer,
                   color: Colors.green,
+                  size:35
                 ),
-                title: Text(LocalizationUtil.translate(context, 'Date')),
-                subtitle: Text(
+                title: Text(
                     Utils.converIntToDate(widget.earthquake.properties.time)
                         .toString()),
               ),
@@ -106,41 +118,65 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
                 leading: Icon(
                   Icons.location_on,
                   color: Colors.red,
+                  size: 35,
                 ),
-                title: Text(LocalizationUtil.translate(context, 'Location')),
-                subtitle: Text(widget.earthquake.properties.place),
+                title: Text(widget.earthquake.properties.place),
               ),
-              ListTile(
-                leading: IconButton(
-                  icon: Icon(
-                    Icons.share,
-                    color: Colors.blue,
-                    semanticLabel: LocalizationUtil.translate(context, 'Share'),
+              GestureDetector(
+                onTap: () {
+                  final RenderBox box = context.findRenderObject();
+                  String earthquakeHappenedText =
+                      LocalizationUtil.translate(context, 'EarthquakeHappened');
+                  earthquakeHappenedText = Utils.replaceTextOfShareEarthquake(
+                      earthquakeHappenedText,
+                      widget.earthquake.properties.mag.toString(),
+                      widget.earthquake.properties.place,
+                      Utils.converIntToDate(widget.earthquake.properties.time)
+                          .toString());
+                  Share.share(earthquakeHappenedText,
+                      subject: LocalizationUtil.translate(
+                          context, 'EarthquakeHappenedSubject'),
+                      sharePositionOrigin:
+                          box.localToGlobal(Offset.zero) & box.size);
+                },
+                child: ListTile(
+                  leading: IconButton(
+                    icon: Icon(
+                     
+                      Icons.share,
+                      color: Colors.blue,
+                      size: 30,
+                      semanticLabel:
+                          LocalizationUtil.translate(context, 'Share'),
+                    ),
+                    onPressed: () {
+                      final RenderBox box = context.findRenderObject();
+                      String earthquakeHappenedText =
+                          LocalizationUtil.translate(
+                              context, 'EarthquakeHappened');
+                      earthquakeHappenedText =
+                          Utils.replaceTextOfShareEarthquake(
+                              earthquakeHappenedText,
+                              widget.earthquake.properties.mag.toString(),
+                              widget.earthquake.properties.place,
+                              Utils.converIntToDate(
+                                      widget.earthquake.properties.time)
+                                  .toString());
+                      Share.share(earthquakeHappenedText,
+                          subject: LocalizationUtil.translate(
+                              context, 'EarthquakeHappenedSubject'),
+                          sharePositionOrigin:
+                              box.localToGlobal(Offset.zero) & box.size);
+                    },
                   ),
-                  onPressed: () {
-                    final RenderBox box = context.findRenderObject();
-                    String earthquakeHappenedText = LocalizationUtil.translate(
-                        context, 'EarthquakeHappened');
-                    earthquakeHappenedText = Utils.replaceTextOfShareEarthquake(
-                        earthquakeHappenedText,
-                        widget.earthquake.properties.mag.toString(),
-                        widget.earthquake.properties.place,
-                        Utils.converIntToDate(widget.earthquake.properties.time)
-                            .toString());
-                    Share.share(earthquakeHappenedText,
-                        subject: LocalizationUtil.translate(
-                            context, 'EarthquakeHappenedSubject'),
-                        sharePositionOrigin:
-                            box.localToGlobal(Offset.zero) & box.size);
-                  },
+                  title: Text(
+                    LocalizationUtil.translate(context, 'Share'),
+                  ),
+                  // subtitle: Text(
+                  //   LocalizationUtil.translate(context, 'Share'),
+                  // ),
                 ),
-                title: Text(
-                  LocalizationUtil.translate(context, 'Share'),
-                ),
-                // subtitle: Text(
-                //   LocalizationUtil.translate(context, 'Share'),
-                // ),
-              ),
+              )
               // ListTiles++
             ]),
           ),
