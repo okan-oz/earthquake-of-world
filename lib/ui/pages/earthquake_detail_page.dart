@@ -183,7 +183,7 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
           SliverToBoxAdapter(
             child: Container(
               padding: EdgeInsets.all(10),
-              height: 350,
+              height: 450,
               width: 50,
               child: MapSample(widget.earthquake),
             ),
