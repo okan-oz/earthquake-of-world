@@ -20,7 +20,7 @@ class EqCard extends StatelessWidget {
             leading: CircleAvatar(
               radius: 45.0,
               child: Text(
-                eq.properties.mag.toString(),
+                Utils.roundMagnitude(eq.properties.mag),
                 style: TextStyle(
                     fontSize: 22,
                     fontWeight: FontWeight.bold,
