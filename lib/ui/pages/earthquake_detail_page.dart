@@ -49,6 +49,7 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
                       style: _getAppBarDetailTextStyle()),
                 ),
               ),
+              
               background: Stack(
                 fit: StackFit.expand,
                 children: [
