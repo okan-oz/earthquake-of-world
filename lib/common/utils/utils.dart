@@ -36,6 +36,10 @@ class Utils {
     return Colors.white;
   }
 
+  static String roundMagnitude(double value) {
+    return value.toStringAsFixed(1);
+  }
+
   static void ShowAlert(BuildContext context, String title, String message) {
     SuperSnackBar.showFlushbar(title, message, context);
   }

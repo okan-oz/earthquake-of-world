@@ -45,16 +45,9 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
                   radius: 50,
                   backgroundColor: Utils.decideListTileColor(
                       widget.earthquake.properties.mag),
-                  child: Text(widget.earthquake.properties.mag.toString(),
+                  child: Text( Utils.roundMagnitude(widget.earthquake.properties.mag),
                       style: _getAppBarDetailTextStyle()),
                 ),
-                // title: Text(
-                //   widget.earthquake.properties.place,
-                //   style: TextStyle(
-                //       fontSize: 16,
-                //       color: Colors.white,
-                //       fontWeight: FontWeight.bold),
-                // ),
               ),
               background: Stack(
                 fit: StackFit.expand,
