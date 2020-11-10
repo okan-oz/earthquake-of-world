@@ -18,15 +18,19 @@ class EarthquakeListPage extends StatelessWidget {
     }
 
     return Scaffold(
-      appBar: CustomSearchAppBar(),
-      body: RefreshIndicator(
-        child: EarthquakeList(eqFilter),
-        onRefresh: () async {
-          context.read<EarthquakeFilterProvider>().refresh();
-          return await Future.delayed(Duration(seconds: 1));
-        },
-      ),
-      //bottomNavigationBar:CustomNavigationBar()
-    );
+        appBar: CustomSearchAppBar(),
+        body: RefreshIndicator(
+          child: EarthquakeList(eqFilter),
+          onRefresh: () async {
+            context.read<EarthquakeFilterProvider>().refresh();
+            return await Future.delayed(Duration(seconds: 1));
+          },
+        ),
+        bottomNavigationBar: Container(
+            height: 50,
+            decoration: BoxDecoration(
+              color: Colors.red,
+            ),
+            child: Text('Burada reklam olacak')));
   }
 }
