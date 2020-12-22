@@ -3,7 +3,7 @@
     package="com.ooz.earthquakesofworld"
     android:targetSandboxVersion="2"
     android:versionCode="1"
-    android:versionName="1.0.0" >
+    android:versionName="0.0.5" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -34,7 +34,7 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="earthquakes_of_world" >
+        android:label="Earthquakes of World" >
         <activity
             android:name="com.ooz.earthquakesofworld.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
