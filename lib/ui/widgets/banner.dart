@@ -1,112 +1,51 @@
-import 'dart:math';
-
 import 'package:firebase_admob/firebase_admob.dart';
 import 'package:flutter/material.dart';
 
 class AdmobBanner extends StatefulWidget {
-  AdmobBanner({Key key}) : super(key: key);
+  AdmobBanner({this.height = 50, this.width});
+
+  final double height;
+  final double width;
 
   @override
-  _BannerState createState() => _BannerState();
+  _AdmobBannerState createState() => _AdmobBannerState();
 }
 
-class _BannerState extends State<AdmobBanner> {
-  InterstitialAd myInterstitial;
-  InterstitialAd buildInterstitialAd() {
-    return InterstitialAd(
-      adUnitId: InterstitialAd.testAdUnitId,
-      listener: (MobileAdEvent event) {
-        if (event == MobileAdEvent.failedToLoad) {
-          myInterstitial..load();
-        } else if (event == MobileAdEvent.closed) {
-          myInterstitial = buildInterstitialAd()..load();
-        }
-        print(event);
-      },
-    );
-  }
-
-  void showInterstitialAd() {
-    myInterstitial..show();
-  }
-
-  void showRandomInterstitialAd() {
-    Random r = new Random();
-    bool value = r.nextBool();
-
-    if (value == true) {
-      myInterstitial..show();
-    }
-  }
-
+class _AdmobBannerState extends State<AdmobBanner> {
   @override
   void initState() {
     super.initState();
-
-    myInterstitial = buildInterstitialAd()..load();
   }
 
   @override
   void dispose() {
-    myInterstitial.dispose();
-
     super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: ButtonBar(
-        alignment: MainAxisAlignment.center,
-        children: <Widget>[
-          RaisedButton(
-            child: Text('BannerAd'),
-            onPressed: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => BannerAdPage()));
-            },
-          ),
-          RaisedButton(
-            child: Text('InterstitialAd'),
-            onPressed: () {
-              showInterstitialAd();
-              //showRandomInterstitialAd();
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => InterstitialAdPage()),
-              );
-            },
-          )
-        ],
-      ),
+    return BannerAdPage(
+      height: widget.height,
+      width: widget.width,
     );
   }
 }
 
-class InterstitialAdPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(),
-      body: Center(
-        child: Text('InterstitialAd Page'),
-      ),
-    );
-  }
-}
 class BannerAdPage extends StatefulWidget {
+  BannerAdPage({this.height, this.width});
+  final double height;
+  final double width;
   @override
   _BannerAdPageState createState() => _BannerAdPageState();
 }
 
 class _BannerAdPageState extends State<BannerAdPage> {
-
   BannerAd myBanner;
 
   BannerAd buildBannerAd() {
     return BannerAd(
         adUnitId: BannerAd.testAdUnitId,
-        size: AdSize.banner,
+        size: AdSize.fullBanner,
         listener: (MobileAdEvent event) {
           if (event == MobileAdEvent.loaded) {
             myBanner..show();
@@ -145,11 +84,10 @@ class _BannerAdPageState extends State<BannerAdPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(),
-      body: Center(
-        child: Text('BannerAd Page'),
-      ),
+    return Container(
+      height: widget.height,
+      width: widget.width,
+      color: Colors.red,
     );
   }
 }

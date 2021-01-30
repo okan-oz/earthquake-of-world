@@ -27,6 +27,9 @@ class EarthquakeListPage extends StatelessWidget {
             return await Future.delayed(Duration(seconds: 1));
           },
         ),
-        bottomNavigationBar: AdmobBanner());
+        bottomNavigationBar: AdmobBanner(
+          height: 52,
+          width: MediaQuery.of(context).size.width,
+        ));
   }
 }
