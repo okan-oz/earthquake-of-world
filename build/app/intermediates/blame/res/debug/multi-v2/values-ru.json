@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\onurt\\Desktop\\Projects\\earthquake-of-world\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru\\values-ru.xml",
+            "outputFile": "/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\onurt\\.gradle\\caches\\transforms-2\\files-2.1\\3f334b5168e2f5f8e922cf152d96a895\\play-services-base-17.0.0\\res\\values-ru\\values.xml",
+                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/8ad860df667dda3ff368b0e28f97002b/jetified-play-services-basement-17.3.0/res/values-ru/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "215",
+                        "endOffsets": "462"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1262",
+                        "endColumns": "215",
+                        "endOffsets": "1473"
+                    }
+                },
+                {
+                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/ecaef3647a3cc8616f6e385592f281a4/jetified-play-services-base-17.0.0/res/values-ru/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\onurt\\.gradle\\caches\\transforms-2\\files-2.1\\cfdc22a9ab14431642d8ca383b6172b5\\core-1.1.0\\res\\values-ru\\values-ru.xml",
+                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/404737ffd0f579dc864e8e5bcb61e6d8/jetified-play-services-ads-19.6.0/res/values-ru/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "199,322,454,534,692,782,956,1074,1152,1263,1330,1397,1474,1585",
+                        "endColumns": "122,131,79,157,89,173,117,77,110,66,66,76,110,76",
+                        "endOffsets": "321,453,533,691,781,955,1073,1151,1262,1329,1396,1473,1584,1661"
+                    },
+                    "to": {
+                        "startLines": "20,21,22,23,24,25,26,27,28,29,30,31,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2867,2994,3130,3214,3376,3470,3648,3770,3852,3967,4038,4109,4190,4305",
+                        "endColumns": "126,135,83,161,93,177,121,81,114,70,70,80,114,80",
+                        "endOffsets": "2989,3125,3209,3371,3465,3643,3765,3847,3962,4033,4104,4185,4300,4381"
+                    }
+                },
+                {
+                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/d87b2d9528d8f820ad53c0fb6ac88521/core-1.2.0/res/values-ru/values-ru.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,28 +64,11 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "34",
                         "startColumns": "4",
-                        "startOffsets": "2867",
+                        "startOffsets": "4386",
                         "endColumns": "100",
-                        "endOffsets": "2963"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\onurt\\.gradle\\caches\\transforms-2\\files-2.1\\f454995f64f12f3844abd1af921c4891\\jetified-play-services-basement-17.0.0\\res\\values-ru\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "215",
-                        "endOffsets": "462"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1262",
-                        "endColumns": "215",
-                        "endOffsets": "1473"
+                        "endOffsets": "4482"
                     }
                 }
             ]

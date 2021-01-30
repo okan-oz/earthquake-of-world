@@ -1,6 +1,7 @@
 import 'package:earthquakes_of_world/common/utils/logger.dart';
 import 'package:earthquakes_of_world/models/models.dart';
 import 'package:earthquakes_of_world/provider/earthquake_filter_provider.dart';
+import 'package:earthquakes_of_world/ui/widgets/banner.dart';
 import 'package:earthquakes_of_world/ui/widgets/custom_navbar.dart';
 import 'package:earthquakes_of_world/ui/widgets/widgets.dart';
 import 'package:flutter/material.dart';
@@ -26,11 +27,6 @@ class EarthquakeListPage extends StatelessWidget {
             return await Future.delayed(Duration(seconds: 1));
           },
         ),
-        bottomNavigationBar: Container(
-            height: 50,
-            decoration: BoxDecoration(
-              color: Colors.red,
-            ),
-            child: Text('Burada reklam olacak')));
+        bottomNavigationBar: AdmobBanner());
   }
 }
