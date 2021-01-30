@@ -1,3 +1,4 @@
+import 'package:earthquakes_of_world/common/constants/admob_constant.dart';
 import 'package:firebase_admob/firebase_admob.dart';
 import 'package:flutter/material.dart';
 
@@ -42,11 +43,19 @@ class BannerAdPage extends StatefulWidget {
 class _BannerAdPageState extends State<BannerAdPage> {
   BannerAd myBanner;
 
+  // static const MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
+  //   //testDevices: testDevice != null ? <String>[testDevice] : null,
+  //   keywords: <String>['foo', 'bar'],
+  //   contentUrl: 'http://foo.com/bar.html',
+  //   childDirected: true,
+  //   nonPersonalizedAds: true,
+  // );
+
   BannerAd buildBannerAd() {
     return BannerAd(
-        adUnitId: BannerAd.testAdUnitId,
+        adUnitId: main_addmob_technology,
         size: AdSize.banner,
-        targetingInfo: MobileAdTargetingInfo(birthday: DateTime.now()),
+        //targetingInfo: targetingInfo,
         listener: (MobileAdEvent event) {
           if (event == MobileAdEvent.loaded) {
             myBanner..show();
@@ -54,27 +63,12 @@ class _BannerAdPageState extends State<BannerAdPage> {
         });
   }
 
-  BannerAd buildLargeBannerAd() {
-    return BannerAd(
-        adUnitId: BannerAd.testAdUnitId,
-        size: AdSize.largeBanner,
-        listener: (MobileAdEvent event) {
-          if (event == MobileAdEvent.loaded) {
-            myBanner
-              ..show(
-                  anchorType: AnchorType.top,
-                  anchorOffset: MediaQuery.of(context).size.height * 0.15);
-          }
-        });
-  }
-
   @override
-  void initState() {
+  void initState()   {
     super.initState();
 
-    FirebaseAdMob.instance.initialize(appId: FirebaseAdMob.testAppId);
+
     myBanner = buildBannerAd()..load();
-    //myBanner = buildLargeBannerAd()..load();
   }
 
   @override

@@ -10,11 +10,10 @@ import 'common/constants/admob_constant.dart';
 import 'common/utils/logger.dart';
 import 'provider/earthquake_filter_provider.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   Logger.initializeFlutterFire();
-  FirebaseAdMob.instance
-      .initialize(appId:main_addmob_id);
+  await FirebaseAdMob.instance.initialize(appId: main_addmob_id);
   runZonedGuarded(() {
     runApp(MultiProvider(
       providers: [
