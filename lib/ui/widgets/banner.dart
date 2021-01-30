@@ -45,7 +45,8 @@ class _BannerAdPageState extends State<BannerAdPage> {
   BannerAd buildBannerAd() {
     return BannerAd(
         adUnitId: BannerAd.testAdUnitId,
-        size: AdSize.fullBanner,
+        size: AdSize.banner,
+        targetingInfo: MobileAdTargetingInfo(birthday: DateTime.now()),
         listener: (MobileAdEvent event) {
           if (event == MobileAdEvent.loaded) {
             myBanner..show();
