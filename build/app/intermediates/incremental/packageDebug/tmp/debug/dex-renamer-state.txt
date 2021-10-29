@@ -1,7 +1,7 @@
-#Sat Jan 30 21:29:04 EET 2021
-base.0=/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Fri Oct 29 15:11:45 EET 2021
+base.0=/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.1=classes2.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
+base.1=/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex

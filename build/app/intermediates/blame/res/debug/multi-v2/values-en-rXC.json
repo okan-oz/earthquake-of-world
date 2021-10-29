@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/d87b2d9528d8f820ad53c0fb6ac88521/core-1.2.0/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/7a2f54d9c026f9b3de577b4214ba42f8/core-1.1.0/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "203",
-                        "endOffsets": "254"
+                        "endColumns": "202",
+                        "endOffsets": "253"
                     }
                 }
             ]

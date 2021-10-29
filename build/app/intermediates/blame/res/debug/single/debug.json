@@ -1,46 +1,46 @@
 [
     {
-        "merged": "/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-mdpi_splash.jpg.flat",
-        "source": "/Users/ooz/Project/Erthquake/earthquake-of-world/android/app/src/main/res/mipmap-mdpi/splash.jpg"
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_splash.jpg.flat",
+        "source": "/Users/ooz/oozproject/earthquake/earthquake-of-world/android/app/src/main/res/mipmap-xxhdpi/splash.jpg"
     },
     {
-        "merged": "/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_splash.jpg.flat",
-        "source": "/Users/ooz/Project/Erthquake/earthquake-of-world/android/app/src/main/res/mipmap-xxxhdpi/splash.jpg"
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/drawable_launch_background.xml.flat",
+        "source": "/Users/ooz/oozproject/earthquake/earthquake-of-world/android/app/src/main/res/drawable/launch_background.xml"
     },
     {
-        "merged": "/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/ooz/Project/Erthquake/earthquake-of-world/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/ooz/oozproject/earthquake/earthquake-of-world/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-xhdpi_splash.jpg.flat",
-        "source": "/Users/ooz/Project/Erthquake/earthquake-of-world/android/app/src/main/res/mipmap-xhdpi/splash.jpg"
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-mdpi_splash.jpg.flat",
+        "source": "/Users/ooz/oozproject/earthquake/earthquake-of-world/android/app/src/main/res/mipmap-mdpi/splash.jpg"
     },
     {
-        "merged": "/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_splash.jpg.flat",
-        "source": "/Users/ooz/Project/Erthquake/earthquake-of-world/android/app/src/main/res/mipmap-xxhdpi/splash.jpg"
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/ooz/oozproject/earthquake/earthquake-of-world/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-hdpi_splash.jpg.flat",
-        "source": "/Users/ooz/Project/Erthquake/earthquake-of-world/android/app/src/main/res/mipmap-hdpi/splash.jpg"
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/ooz/oozproject/earthquake/earthquake-of-world/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/ooz/Project/Erthquake/earthquake-of-world/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-xhdpi_splash.jpg.flat",
+        "source": "/Users/ooz/oozproject/earthquake/earthquake-of-world/android/app/src/main/res/mipmap-xhdpi/splash.jpg"
     },
     {
-        "merged": "/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/ooz/Project/Erthquake/earthquake-of-world/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-hdpi_splash.jpg.flat",
+        "source": "/Users/ooz/oozproject/earthquake/earthquake-of-world/android/app/src/main/res/mipmap-hdpi/splash.jpg"
     },
     {
-        "merged": "/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/drawable_launch_background.xml.flat",
-        "source": "/Users/ooz/Project/Erthquake/earthquake-of-world/android/app/src/main/res/drawable/launch_background.xml"
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/ooz/oozproject/earthquake/earthquake-of-world/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/ooz/Project/Erthquake/earthquake-of-world/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/ooz/oozproject/earthquake/earthquake-of-world/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/ooz/Project/Erthquake/earthquake-of-world/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_splash.jpg.flat",
+        "source": "/Users/ooz/oozproject/earthquake/earthquake-of-world/android/app/src/main/res/mipmap-xxxhdpi/splash.jpg"
     }
 ]

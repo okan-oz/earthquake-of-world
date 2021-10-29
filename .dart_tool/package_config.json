@@ -62,12 +62,6 @@
       "languageVersion": "2.10"
     },
     {
-      "name": "firebase_admob",
-      "rootUri": "file:///Users/development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_admob-0.11.0+1",
-      "packageUri": "lib/",
-      "languageVersion": "2.7"
-    },
-    {
       "name": "firebase_core",
       "rootUri": "file:///Users/development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.7.0",
       "packageUri": "lib/",
@@ -99,7 +93,7 @@
     },
     {
       "name": "flutter_datetime_picker",
-      "rootUri": "file:///Users/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_datetime_picker-1.4.0",
+      "rootUri": "file:///Users/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_datetime_picker-1.5.0",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
@@ -255,13 +249,13 @@
     },
     {
       "name": "super_alertbox",
-      "rootUri": "file:///Users/development/flutter/.pub-cache/git/super_alertbox-22fd9b74f882625ab11f9fe354f6ce730dac79f5/",
+      "rootUri": "file:///Users/ooz/oozproject/earthquake/super_alertbox",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     },
     {
       "name": "super_internationalized",
-      "rootUri": "file:///Users/development/flutter/.pub-cache/git/super_internationalized-f4a42c6d36abf31b6a843d156197ea4cf04e91ad/",
+      "rootUri": "file:///Users/ooz/oozproject/earthquake/super_internationalized",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     },
@@ -296,7 +290,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-01-30T18:21:17.511271Z",
+  "generated": "2021-10-29T11:23:51.481149Z",
   "generator": "pub",
   "generatorVersion": "2.10.5"
 }

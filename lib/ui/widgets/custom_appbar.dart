@@ -23,6 +23,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
   double filterBarOpenHeight = 120;
   bool searchBarIsOpen = false;
   bool filterBarIsOpen = false;
+  double cornerRadious = 4;
   TextEditingController _searchController;
 
   //date range alanı
@@ -37,8 +38,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
           padding: EdgeInsets.all(10),
           decoration: BoxDecoration(
               color: Colors.white,
-              border: Border.all(
-                  color: Colors.white, width: 1.0, style: BorderStyle.solid),
+              border: Border.all(color: Colors.white, width: 1.0, style: BorderStyle.solid),
               borderRadius: BorderRadius.circular(10.0)),
           child: TextField(
             onChanged: (text) {
@@ -46,8 +46,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
               context.read<EarthquakeFilterProvider>().updateSearchText(text);
             },
             controller: _searchController,
-            decoration:
-                InputDecoration.collapsed(hintText: 'Lokasyon giriniz..'),
+            decoration: InputDecoration.collapsed(hintText: 'Lokasyon giriniz..'),
             autofocus: true,
           ));
     } else {
@@ -81,10 +80,8 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
         width: MediaQuery.of(context).size.width,
         child: Container(
             decoration: BoxDecoration(
-                color: Colors.red,
-                borderRadius: BorderRadius.only(
-                    bottomLeft: Radius.circular(15),
-                    bottomRight: Radius.circular(15))),
+                color: Colors.red.shade900,
+                borderRadius: BorderRadius.only(bottomLeft: Radius.circular(cornerRadious), bottomRight: Radius.circular(cornerRadious))),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -98,13 +95,11 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                       Container(
                           padding: EdgeInsets.fromLTRB(10, 0, 0, 0),
                           child: AutoSizeText(
-                            LocalizationUtil.translate(
-                                context, 'ApplicationAppBarTitle'),
+                            LocalizationUtil.translate(context, 'ApplicationAppBarTitle'),
                             minFontSize: 19,
                             maxFontSize: 30,
                             maxLines: 1,
-                            style: TextStyle(fontWeight: FontWeight.bold,
-                            color: Colors.white),
+                            style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
                           )),
                       Container(
                           width: 100,
@@ -118,8 +113,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                                     filterBarIsOpen = !filterBarIsOpen;
                                     if (filterBarIsOpen) {
                                       searchBarIsOpen = false;
-                                      appBarHeight = appBarInitializeValue +
-                                          filterBarOpenHeight;
+                                      appBarHeight = appBarInitializeValue + filterBarOpenHeight;
                                     } else {
                                       appBarHeight = appBarInitializeValue;
                                     }
@@ -131,33 +125,13 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                                   color: Colors.white,
                                 ),
                               ),
-                              // GestureDetector(
-                              //   onTap: () {
-                              //     setState(() {
-                              //       searchBarIsOpen = !searchBarIsOpen;
-                              //       if (searchBarIsOpen) {
-                              //         filterBarIsOpen = false;
-                              //         appBarHeight =
-                              //             appBarInitializeValue + searchBarOpenHeight;
-                              //       } else {
-                              //         appBarHeight = appBarInitializeValue;
-                              //       }
-                              //     });
-                              //   },
-                              //   child: Icon(
-                              //     Icons.search,
-                              //     color: Colors.white,
-                              //   ),
-                              // ),
                               GestureDetector(
                                 onTap: () {
                                   setState(() {
                                     searchBarIsOpen = false;
                                     filterBarIsOpen = false;
                                     appBarHeight = appBarInitializeValue;
-                                    context
-                                        .read<EarthquakeFilterProvider>()
-                                        .setInitialValue();
+                                    context.read<EarthquakeFilterProvider>().setInitialValue();
                                   });
                                 },
                                 child: Icon(

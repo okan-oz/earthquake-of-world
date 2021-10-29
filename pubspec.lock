@@ -71,13 +71,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.2.0-nullsafety.1"
-  firebase_admob:
-    dependency: "direct main"
-    description:
-      name: firebase_admob
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.11.0+1"
   firebase_core:
     dependency: "direct main"
     description:
@@ -117,7 +110,7 @@ packages:
       name: flutter_datetime_picker
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.4.0"
+    version: "1.5.0"
   flutter_localizations:
     dependency: transitive
     description: flutter
@@ -288,20 +281,16 @@ packages:
   super_alertbox:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "22fd9b74f882625ab11f9fe354f6ce730dac79f5"
-      url: "https://github.com/okan-oz/super_alertbox.git"
-    source: git
+      path: "/Users/ooz/oozproject/earthquake/super_alertbox"
+      relative: false
+    source: path
     version: "0.0.1"
   super_internationalized:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: f4a42c6d36abf31b6a843d156197ea4cf04e91ad
-      url: "https://github.com/okan-oz/super_internationalized.git"
-    source: git
+      path: "/Users/ooz/oozproject/earthquake/super_internationalized"
+      relative: false
+    source: path
     version: "0.0.1"
   term_glyph:
     dependency: transitive

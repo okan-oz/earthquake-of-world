@@ -1,7 +1,4 @@
 com.ooz.earthquakesofworld
-attr adSize
-attr adSizes
-attr adUnitId
 attr alpha
 attr ambientEnabled
 attr buttonSize
@@ -14,7 +11,6 @@ attr cameraTilt
 attr cameraZoom
 attr circleCrop
 attr colorScheme
-attr coordinatorLayoutStyle
 attr font
 attr fontProviderAuthority
 attr fontProviderCerts
@@ -27,21 +23,13 @@ attr fontVariationSettings
 attr fontWeight
 attr imageAspectRatio
 attr imageAspectRatioAdjust
-attr keylines
 attr latLngBoundsNorthEastLatitude
 attr latLngBoundsNorthEastLongitude
 attr latLngBoundsSouthWestLatitude
 attr latLngBoundsSouthWestLongitude
-attr layout_anchor
-attr layout_anchorGravity
-attr layout_behavior
-attr layout_dodgeInsetEdges
-attr layout_insetEdge
-attr layout_keyline
 attr liteMode
 attr mapType
 attr scopeUris
-attr statusBarBackground
 attr ttcIndex
 attr uiCompass
 attr uiMapToolbar
@@ -53,13 +41,6 @@ attr uiZoomControls
 attr uiZoomGestures
 attr useViewLifecycle
 attr zOrderOnTop
-bool enable_system_alarm_service_default
-bool enable_system_job_service_default
-bool workmanager_test_configuration
-color browser_actions_bg_grey
-color browser_actions_divider_color
-color browser_actions_text_color
-color browser_actions_title_color
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -75,8 +56,6 @@ color notification_action_color_filter
 color notification_icon_bg_color
 color ripple_material_light
 color secondary_text_default_material_light
-dimen browser_actions_context_menu_max_width
-dimen browser_actions_context_menu_min_padding
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -173,28 +152,12 @@ id action_text
 id actions
 id adjust_height
 id adjust_width
-id all
 id async
 id auto
 id blocking
-id bottom
-id browser_actions_header_text
-id browser_actions_menu_item_icon
-id browser_actions_menu_item_text
-id browser_actions_menu_items
-id browser_actions_menu_view
-id center
-id center_horizontal
-id center_vertical
 id chronometer
-id clip_horizontal
-id clip_vertical
 id dark
 id dialog_button
-id end
-id fill
-id fill_horizontal
-id fill_vertical
 id forever
 id hybrid
 id icon
@@ -202,7 +165,6 @@ id icon_group
 id icon_only
 id info
 id italic
-id left
 id light
 id line1
 id line3
@@ -211,12 +173,10 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
-id right
 id right_icon
 id right_side
 id satellite
 id standard
-id start
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -230,12 +190,9 @@ id text
 id text2
 id time
 id title
-id top
 id wide
 integer google_play_services_version
 integer status_bar_notification_info_maxnum
-layout browser_actions_context_menu_page
-layout browser_actions_context_menu_row
 layout custom_dialog
 layout notification_action
 layout notification_action_tombstone
@@ -271,21 +228,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
-string offline_notification_text
-string offline_notification_title
-string offline_opt_in_confirm
-string offline_opt_in_confirmation
-string offline_opt_in_decline
-string offline_opt_in_message
-string offline_opt_in_title
 string project_id
-string s1
-string s2
-string s3
-string s4
-string s5
-string s6
-string s7
 string status_bar_notification_info_overflow
 style LaunchTheme
 style NormalTheme
@@ -294,14 +237,9 @@ style TextAppearance_Compat_Notification_Info
 style TextAppearance_Compat_Notification_Line2
 style TextAppearance_Compat_Notification_Time
 style TextAppearance_Compat_Notification_Title
-style Theme_IAPTheme
 style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
-style Widget_Support_CoordinatorLayout
-styleable AdsAttrs adSize adSizes adUnitId
 styleable ColorStateListItem android_color android_alpha alpha
-styleable CoordinatorLayout keylines statusBarBackground
-styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY

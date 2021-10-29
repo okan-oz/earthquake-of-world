@@ -7,24 +7,23 @@ class EqCard extends StatelessWidget {
   EqCard(this.eq, this.context, {this.onTap});
 
   final GestureTapCallback onTap;
-  Feature eq;
-  BuildContext context;
+  final double height = 75;
+  final double circleRadious = 25;
+  final Feature eq;
+  final BuildContext context;
   @override
   Widget build(BuildContext context) {
     DateTime timeStamp = Utils.converIntToDate(eq.properties.time);
     return Card(
-        elevation: 10,
+        elevation: 5,
         child: Container(
-          height: 75,
+          height: height,
           child: ListTile(
             leading: CircleAvatar(
-              radius: 45.0,
+              radius: circleRadious,
               child: Text(
                 Utils.roundMagnitude(eq.properties.mag),
-                style: TextStyle(
-                    fontSize: 22,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white),
+                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white),
               ),
               backgroundColor: Utils.decideListTileColor(eq.properties.mag),
             ),

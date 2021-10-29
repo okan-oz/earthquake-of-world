@@ -49,8 +49,7 @@ class Utils {
   }
 
   static void ShowClearEqFilterInfo(BuildContext context) {
-    Utils.ShowAlert(context, "Filtreler temizlendi",
-        "Deprem verileri filtre olmadan yeniden alındı..");
+    Utils.ShowAlert(context, "Filtreler temizlendi", "Deprem verileri filtre olmadan yeniden alındı..");
   }
 
   static String formatDate(DateTime value) {
@@ -72,8 +71,7 @@ class Utils {
     return DateTime.fromMillisecondsSinceEpoch(longTimehoc);
   }
 
-  static String replaceTextOfShareEarthquake(
-      String text, String magnitude, String location, String date) {
+  static String replaceTextOfShareEarthquake(String text, String magnitude, String location, String date) {
     text = text.replaceAll('#MAGNITUDE#', magnitude);
     text = text.replaceAll('#LOCATION#', location);
     text = text.replaceAll('#DATE#', date);

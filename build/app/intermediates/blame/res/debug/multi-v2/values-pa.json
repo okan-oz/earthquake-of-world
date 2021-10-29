@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml",
+            "outputFile": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml",
             "map": [
                 {
-                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/d87b2d9528d8f820ad53c0fb6ac88521/core-1.2.0/res/values-pa/values-pa.xml",
+                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/7a2f54d9c026f9b3de577b4214ba42f8/core-1.1.0/res/values-pa/values-pa.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -13,11 +13,11 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "34",
+                        "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "4365",
+                        "startOffsets": "2861",
                         "endColumns": "100",
-                        "endOffsets": "4461"
+                        "endOffsets": "2957"
                     }
                 },
                 {
@@ -38,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/404737ffd0f579dc864e8e5bcb61e6d8/jetified-play-services-ads-19.6.0/res/values-pa/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "199,305,442,526,689,778,931,1050,1123,1247,1315,1384,1460,1576",
-                        "endColumns": "105,136,83,162,88,152,118,72,123,67,68,75,115,70",
-                        "endOffsets": "304,441,525,688,777,930,1049,1122,1246,1314,1383,1459,1575,1646"
-                    },
-                    "to": {
-                        "startLines": "20,21,22,23,24,25,26,27,28,29,30,31,32,33",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2861,2971,3112,3200,3367,3460,3617,3740,3817,3945,4017,4090,4170,4290",
-                        "endColumns": "109,140,87,166,92,156,122,76,127,71,72,79,119,74",
-                        "endOffsets": "2966,3107,3195,3362,3455,3612,3735,3812,3940,4012,4085,4165,4285,4360"
-                    }
-                },
-                {
-                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/8ad860df667dda3ff368b0e28f97002b/jetified-play-services-basement-17.3.0/res/values-pa/values.xml",
+                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/434f71c54824ad7663592277f3ccbe75/jetified-play-services-basement-17.0.0/res/values-pa/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

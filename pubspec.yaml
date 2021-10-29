@@ -31,16 +31,16 @@ dependencies:
   share: 0.6.4+3
   google_maps_flutter: 1.0.3
   super_internationalized:
-    git: https://github.com/okan-oz/super_internationalized.git
+    path: /Users/ooz/oozproject/earthquake/super_internationalized
   super_alertbox:
-    git: https://github.com/okan-oz/super_alertbox.git
+    path: /Users/ooz/oozproject/earthquake/super_alertbox
   firebase_core: 0.7.0
   # firebase_crashlytics: 0.2.1+1
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
   auto_size_text: 2.1.0
-  firebase_admob: ^0.11.0+1
+  # firebase_admob: ^0.11.0+1
 dev_dependencies:
   flutter_test:
     sdk: flutter

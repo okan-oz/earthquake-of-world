@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml",
+            "outputFile": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml",
             "map": [
                 {
-                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/8ad860df667dda3ff368b0e28f97002b/jetified-play-services-basement-17.3.0/res/values-nb/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "188",
-                        "endOffsets": "435"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1271",
-                        "endColumns": "188",
-                        "endOffsets": "1455"
-                    }
-                },
-                {
-                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/d87b2d9528d8f820ad53c0fb6ac88521/core-1.2.0/res/values-nb/values-nb.xml",
+                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/7a2f54d9c026f9b3de577b4214ba42f8/core-1.1.0/res/values-nb/values-nb.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,11 +13,11 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "34",
+                        "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "4209",
+                        "startOffsets": "2807",
                         "endColumns": "100",
-                        "endOffsets": "4305"
+                        "endOffsets": "2903"
                     }
                 },
                 {
@@ -55,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/404737ffd0f579dc864e8e5bcb61e6d8/jetified-play-services-ads-19.6.0/res/values-nb/values.xml",
+                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/434f71c54824ad7663592277f3ccbe75/jetified-play-services-basement-17.0.0/res/values-nb/values.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "199,305,430,510,646,732,869,985,1053,1160,1223,1286,1369,1476",
-                        "endColumns": "105,124,79,135,85,136,115,67,106,62,62,82,106,68",
-                        "endOffsets": "304,429,509,645,731,868,984,1052,1159,1222,1285,1368,1475,1544"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "188",
+                        "endOffsets": "435"
                     },
                     "to": {
-                        "startLines": "20,21,22,23,24,25,26,27,28,29,30,31,32,33",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2807,2917,3046,3130,3270,3360,3501,3621,3693,3804,3871,3938,4025,4136",
-                        "endColumns": "109,128,83,139,89,140,119,71,110,66,66,86,110,72",
-                        "endOffsets": "2912,3041,3125,3265,3355,3496,3616,3688,3799,3866,3933,4020,4131,4204"
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1271",
+                        "endColumns": "188",
+                        "endOffsets": "1455"
                     }
                 }
             ]

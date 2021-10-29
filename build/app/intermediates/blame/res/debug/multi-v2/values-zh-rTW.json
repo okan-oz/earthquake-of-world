@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ooz/Project/Erthquake/earthquake-of-world/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/8ad860df667dda3ff368b0e28f97002b/jetified-play-services-basement-17.3.0/res/values-zh-rTW/values.xml",
+                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/7a2f54d9c026f9b3de577b4214ba42f8/core-1.1.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2413",
+                        "endColumns": "100",
+                        "endOffsets": "2509"
+                    }
+                },
+                {
+                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/434f71c54824ad7663592277f3ccbe75/jetified-play-services-basement-17.0.0/res/values-zh-rTW/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -18,40 +35,6 @@
                         "startOffsets": "1127",
                         "endColumns": "161",
                         "endOffsets": "1284"
-                    }
-                },
-                {
-                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/404737ffd0f579dc864e8e5bcb61e6d8/jetified-play-services-ads-19.6.0/res/values-zh-rTW/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "203,292,386,466,570,654,753,845,906,981,1041,1101,1165,1236",
-                        "endColumns": "88,93,79,103,83,98,91,60,74,59,59,63,70,61",
-                        "endOffsets": "291,385,465,569,653,752,844,905,980,1040,1100,1164,1235,1297"
-                    },
-                    "to": {
-                        "startLines": "20,21,22,23,24,25,26,27,28,29,30,31,32,33",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2413,2506,2604,2688,2796,2884,2987,3083,3148,3227,3291,3355,3423,3498",
-                        "endColumns": "92,97,83,107,87,102,95,64,78,63,63,67,74,65",
-                        "endOffsets": "2501,2599,2683,2791,2879,2982,3078,3143,3222,3286,3350,3418,3493,3559"
-                    }
-                },
-                {
-                    "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/d87b2d9528d8f820ad53c0fb6ac88521/core-1.2.0/res/values-zh-rTW/values-zh-rTW.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "34",
-                        "startColumns": "4",
-                        "startOffsets": "3564",
-                        "endColumns": "100",
-                        "endOffsets": "3660"
                     }
                 },
                 {

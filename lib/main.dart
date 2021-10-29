@@ -1,19 +1,16 @@
 import 'dart:async';
 import 'package:earthquakes_of_world/ui/pages/pages.dart';
 import 'package:earthquakes_of_world/ui/widgets/widgets.dart';
-import 'package:firebase_admob/firebase_admob.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:super_internationalized/applocalization.dart' as localization;
-
-import 'common/constants/admob_constant.dart';
 import 'common/utils/logger.dart';
 import 'provider/earthquake_filter_provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   Logger.initializeFlutterFire();
-  await FirebaseAdMob.instance.initialize(appId: main_addmob_id);
+  //await FirebaseAdMob.instance.initialize(appId: main_addmob_id);
   runZonedGuarded(() {
     runApp(MultiProvider(
       providers: [

@@ -9,35 +9,29 @@ class CustomRangeSlider extends StatefulWidget {
 }
 
 class _RangeSliderState extends State<CustomRangeSlider> {
-  List<bool> isSelected = [false, false, true, false, false, false];
+  List<bool> isSelected = [true, false, false, false, false, false];
   @override
   Widget build(BuildContext context) {
     double boxSize = 45;
     return Container(
-      alignment: Alignment.center,
+        alignment: Alignment.center,
         height: 45,
         // width: 300,
         margin: EdgeInsets.fromLTRB(10, 0, 10, 0),
         decoration: BoxDecoration(
             color: Colors.white,
-            border: Border.all(
-                color: Colors.white, width: 1.0, style: BorderStyle.solid),
+            border: Border.all(color: Colors.white, width: 1.0, style: BorderStyle.solid),
             borderRadius: BorderRadius.circular(10.0)),
         child: ToggleButtons(
-        splashColor: Colors.green,
+          splashColor: Colors.green,
           disabledColor: Colors.red,
-          selectedBorderColor: Colors.grey.shade700,
+          selectedBorderColor: Colors.grey.shade900,
           children: [
-            Icon(Icons.two_k_plus,
-                size: boxSize, color: Utils.decideListTileColor(2)),
-            Icon(Icons.three_k_plus,
-                size: boxSize, color: Utils.decideListTileColor(3)),
-            Icon(Icons.four_k_plus,
-                size: boxSize, color: Utils.decideListTileColor(4)),
-            Icon(Icons.five_k_plus,
-                size: boxSize, color: Utils.decideListTileColor(5)),
-            Icon(Icons.six_k_plus,
-                size: boxSize, color: Utils.decideListTileColor(6)),
+            Icon(Icons.two_k_plus, size: boxSize, color: Utils.decideListTileColor(2)),
+            Icon(Icons.three_k_plus, size: boxSize, color: Utils.decideListTileColor(3)),
+            Icon(Icons.four_k_plus, size: boxSize, color: Utils.decideListTileColor(4)),
+            Icon(Icons.five_k_plus, size: boxSize, color: Utils.decideListTileColor(5)),
+            Icon(Icons.six_k_plus, size: boxSize, color: Utils.decideListTileColor(6)),
             Icon(
               Icons.seven_k_plus,
               size: boxSize,
@@ -56,9 +50,7 @@ class _RangeSliderState extends State<CustomRangeSlider> {
                 isSelected[i] = false;
               }
               isSelected[index] = true;
-              context
-                  .read<EarthquakeFilterProvider>()
-                  .updateMagnitude(index + 2);
+              context.read<EarthquakeFilterProvider>().updateMagnitude(index + 2);
             });
           },
         ));
