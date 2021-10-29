@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/share/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/7a2f54d9c026f9b3de577b4214ba42f8/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/share/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/7a2f54d9c026f9b3de577b4214ba42f8/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/share/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/7a2f54d9c026f9b3de577b4214ba42f8/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/share/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/7a2f54d9c026f9b3de577b4214ba42f8/core-1.1.0/res/layout-v21/notification_action.xml"
+    }
+]

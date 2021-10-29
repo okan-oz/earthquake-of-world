@@ -1,0 +1,4 @@
+#Fri Oct 29 17:51:42 EET 2021
+base.0=/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

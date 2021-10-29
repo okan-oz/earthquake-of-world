@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/google_maps_flutter/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/ecaef3647a3cc8616f6e385592f281a4/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/google_maps_flutter/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/ecaef3647a3cc8616f6e385592f281a4/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/ooz/oozproject/earthquake/earthquake-of-world/build/google_maps_flutter/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/ooz/.gradle/caches/transforms-2/files-2.1/ecaef3647a3cc8616f6e385592f281a4/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_tint.xml"
+    }
+]
