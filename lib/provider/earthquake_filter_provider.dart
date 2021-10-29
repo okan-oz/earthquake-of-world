@@ -38,6 +38,11 @@ class EarthquakeFilterProvider with ChangeNotifier, DiagnosticableTreeMixin {
     notifyListeners();
   }
 
+  updateGps(bool useCurrentLocation) {
+    _filter.useCurrentLocation = useCurrentLocation;
+    notifyListeners();
+  }
+
   EarthquakeFilter get currentFilter {
     return _filter;
   }

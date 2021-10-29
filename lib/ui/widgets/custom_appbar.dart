@@ -24,6 +24,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
   bool searchBarIsOpen = false;
   bool filterBarIsOpen = false;
   double cornerRadious = 4;
+  bool gpsButtonOn = false;
   TextEditingController _searchController;
 
   //date range alanı
@@ -102,11 +103,23 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                             style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
                           )),
                       Container(
-                          width: 100,
+                          width: 120,
                           child: Row(
                             crossAxisAlignment: CrossAxisAlignment.center,
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
+                              GestureDetector(
+                                onTap: () {
+                                  setState(() {
+                                    searchBarIsOpen = false;
+                                    filterBarIsOpen = false;
+                                    appBarHeight = appBarInitializeValue;
+                                    gpsButtonOn = !gpsButtonOn;
+                                    context.read<EarthquakeFilterProvider>().updateGps(gpsButtonOn);
+                                  });
+                                },
+                                child: Icon(Icons.gps_fixed, size: 30, color: gpsButtonOn == true ? Colors.blue : Colors.white),
+                              ),
                               GestureDetector(
                                 onTap: () {
                                   setState(() {

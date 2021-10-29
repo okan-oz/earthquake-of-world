@@ -1,4 +1,4 @@
-#Fri Oct 29 15:11:45 EET 2021
+#Fri Oct 29 16:25:09 EET 2021
 base.0=/Users/ooz/oozproject/earthquake/earthquake-of-world/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.1=classes2.dex
 renamed.1=classes2.dex

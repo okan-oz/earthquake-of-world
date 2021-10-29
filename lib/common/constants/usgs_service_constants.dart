@@ -2,3 +2,5 @@
 // const String service_url =
 //     'https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=#STARTTIME#&endtime=#ENDTIME#&minmagnitude=#MINMAGNITUDE#';
 const String service_url ='https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=#STARTTIME#&endtime=#ENDTIME#&minmagnitude=#MINMAGNITUDE#';
+const String service_url_current_location ='https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=#STARTTIME#&endtime=#ENDTIME#&minmagnitude=#MINMAGNITUDE#&minlatitude=#MINLATITUDE#&minlongitude=#MINLONGITUDE#&maxlatitude=#MAXLATITIDE#&maxlongitude=#MAXLONGITUDE#';
+
