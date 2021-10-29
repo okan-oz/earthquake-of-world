@@ -119,18 +119,6 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              // GestureDetector(
-                              //   onTap: () {
-                              //     setState(() {
-                              //       searchBarIsOpen = false;
-                              //       filterBarIsOpen = false;
-                              //       appBarHeight = appBarInitializeValue;
-                              //       gpsButtonOn = !gpsButtonOn;
-                              //       context.read<EarthquakeFilterProvider>().updateGps(gpsButtonOn);
-                              //     });
-                              //   },
-                              //   child: Icon(Icons.gps_fixed, size: 30, color: gpsButtonOn == true ? Colors.blue : Colors.white),
-                              // ),
                               GestureDetector(
                                 onTap: () {
                                   setState(() {
@@ -154,6 +142,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                                   setState(() {
                                     searchBarIsOpen = false;
                                     filterBarIsOpen = false;
+                                    gpsButtonOn = false;
                                     appBarHeight = appBarInitializeValue;
                                     context.read<EarthquakeFilterProvider>().setInitialValue();
                                   });
