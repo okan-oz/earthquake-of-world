@@ -1,0 +1,12 @@
+{
+    "ApplicationAppBarTitle": "Dünya Depremleri",
+    "Depth":"Derinlik",
+    "Date":"Tarih",
+    "Location":"Konum",
+    "Share":"Paylaş",
+    "EarthquakeHappened":"#DATE# tarihinde , #LOCATION# lokasyonunda ,şiddeti #MAGNITUDE# olan deprem oldu.",
+    "EarthquakeHappenedSubject":"Deprem oldu !",
+    "FriendlyExceptionTitle":"Deprem verilirini alırken sıkıntılar yaşıyoruz.Rica etsek daha sonra tekrar deneyebilir misiniz?",
+    "UnhandledException":"Hiç beklemediğimiz bir hata oldu",
+    "EmptyDateMessage":"İlgili filtreler ile deprem kaydı bulunamamıştır."
+}

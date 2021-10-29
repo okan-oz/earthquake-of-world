@@ -1,0 +1,12 @@
+{
+    "ApplicationAppBarTitle": "Earthquakes",
+    "Depth":"Depth",
+    "Date":"Date",
+    "Location":"Location",
+    "Share":"Share",
+    "EarthquakeHappened":"An earthquake with a magnitude of #MAGNITUDE# occurred in the location of the #LOCATION# on #DATE# .",
+    "EarthquakeHappenedSubject":"Earthquake happened !",
+    "FriendlyExceptionTitle":"We are having trouble getting the earthquake data. Could you please try again later?",
+    "UnhandledException":"There was an unexpected error",
+    "EmptyDateMessage":"Earthquake records were not found with the relevant filters."
+}
