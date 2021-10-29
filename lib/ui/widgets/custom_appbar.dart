@@ -2,6 +2,7 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:earthquakes_of_world/common/utils/localization_util.dart';
 import 'package:earthquakes_of_world/provider/earthquake_filter_provider.dart';
 import 'package:earthquakes_of_world/ui/widgets/range_slider.dart';
+import 'package:earthquakes_of_world/ui/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'date_range_widget.dart';
@@ -71,6 +72,16 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
     }
   }
 
+  void onGpsButton() {
+    setState(() {
+      searchBarIsOpen = false;
+      filterBarIsOpen = false;
+      appBarHeight = appBarInitializeValue;
+      gpsButtonOn = !gpsButtonOn;
+      context.read<EarthquakeFilterProvider>().updateGps(gpsButtonOn);
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -108,18 +119,18 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              GestureDetector(
-                                onTap: () {
-                                  setState(() {
-                                    searchBarIsOpen = false;
-                                    filterBarIsOpen = false;
-                                    appBarHeight = appBarInitializeValue;
-                                    gpsButtonOn = !gpsButtonOn;
-                                    context.read<EarthquakeFilterProvider>().updateGps(gpsButtonOn);
-                                  });
-                                },
-                                child: Icon(Icons.gps_fixed, size: 30, color: gpsButtonOn == true ? Colors.blue : Colors.white),
-                              ),
+                              // GestureDetector(
+                              //   onTap: () {
+                              //     setState(() {
+                              //       searchBarIsOpen = false;
+                              //       filterBarIsOpen = false;
+                              //       appBarHeight = appBarInitializeValue;
+                              //       gpsButtonOn = !gpsButtonOn;
+                              //       context.read<EarthquakeFilterProvider>().updateGps(gpsButtonOn);
+                              //     });
+                              //   },
+                              //   child: Icon(Icons.gps_fixed, size: 30, color: gpsButtonOn == true ? Colors.blue : Colors.white),
+                              // ),
                               GestureDetector(
                                 onTap: () {
                                   setState(() {
@@ -153,6 +164,7 @@ class _CustomSearchAppBarState extends State<CustomSearchAppBar> {
                                   color: Colors.white,
                                 ),
                               ),
+                              BlinkingButton(onGpsButton, gpsButtonOn),
                               SizedBox(
                                 width: 5,
                               ),
