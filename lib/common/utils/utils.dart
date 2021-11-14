@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:super_alertbox/super_snackbar.dart';
 
-DateFormat dateFormat = DateFormat("yyyy-MM-dd HH:mm:ss");
 
 class Utils {
   static DateFormat dateFormat = DateFormat("dd-MM-yyyy HH:mm:ss");
@@ -62,14 +61,17 @@ class Utils {
   }
 
   static DateTime convertDate(String value) {
-    value = value.replaceAll(".", "-");
-    DateTime returnValue = DateTime.parse(value);
+    //value = value.replaceAll(".", "-");
+    List<String> splitValue= value.split('.');
+    DateTime returnValue = DateTime.parse(splitValue[0]);
     return returnValue;
   }
 
   static DateTime converIntToDate(int longTimehoc) {
     return DateTime.fromMillisecondsSinceEpoch(longTimehoc);
   }
+
+
 
   static String replaceTextOfShareEarthquake(String text, String magnitude, String location, String date) {
     text = text.replaceAll('#MAGNITUDE#', magnitude);

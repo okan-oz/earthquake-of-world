@@ -35,7 +35,7 @@ class EqCard extends StatelessWidget {
               maxLines: 2,
             ),
             subtitle: AutoSizeText(
-              timeStamp.toString(),
+             Utils.formatTextDate( timeStamp.toString()),
               maxFontSize: 15,
               minFontSize: 9,
               maxLines: 1,

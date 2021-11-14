@@ -105,8 +105,7 @@ class _EartquakeDetailPageState extends State<EartquakeDetailPage> {
                   size:35
                 ),
                 title: Text(
-                    Utils.converIntToDate(widget.earthquake.properties.time)
-                        .toString()),
+                   Utils.formatDate(Utils.converIntToDate(widget.earthquake.properties.time) )),
               ),
               ListTile(
                 leading: Icon(
